@@ -43,11 +43,11 @@ defaultContentLanguage = "en"
   weight = 1
 
 [[menu.main]]
-  name = "About"
+  name = "About us"
   url = "/about/"
   weight = 2
 
 [[menu.main]]
-  name = "Contact"
+  name = "Contact us"
   url = "/contact/"
   weight = 3
