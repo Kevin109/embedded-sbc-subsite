@@ -1,4 +1,53 @@
-baseURL = 'https://embedded-sbc.com/'
-languageCode = 'en-us'
-title = 'Embedded SBC'
+baseURL = "https://embedded-sbc.com/"
+languageCode = "en-us"
+title = "Embedded SBC Blog"
 theme = "PaperMod"
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  description = "Insights and technical articles on Android SBCs, Linux SBCs, and custom embedded board solutions."
+  author = "Embedded SBC Team"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableScrollToTop = false
+  hideFooter = false
+  DateFormat = "2006-01-02"
+  UseHugoToc = true
+  comments = false
+  disableSpecial1stPost = true
+
+[params.assets]
+  customCSS = ["css/custom.css"]
+  disableFingerprinting = false
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3

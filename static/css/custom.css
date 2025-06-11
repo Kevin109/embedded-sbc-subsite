@@ -1,0 +1,24 @@
+/* 更强优先级 + 强制覆盖 PaperMod 样式 */
+.header-wrap,
+.main,
+.post-entry,
+.first-entry,
+.post-content,
+.single-title,
+.single-header,
+.page-header,
+.list {
+  max-width: 860px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header {
+  max-width: 890px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
