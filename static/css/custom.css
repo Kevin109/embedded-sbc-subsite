@@ -44,6 +44,15 @@
   box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
+.entry-footer{
+  color: #1168A1;
+}
+
+.entry-hint-parent{
+    color: #1168A1;
+    font-size: 15px; !important
+}
+
 .featured-list {
   display: flex;
   flex-wrap: wrap;
