@@ -22,3 +22,92 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.post-content{
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+  padding: 10px 8px 6px 8px;
+}
+
+.post-entry {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1%;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  transition: 0.6s ease;
+}
+
+.post-entry:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.featured-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.featured-list .card {
+  background: #3F8ED0;
+  color: #FAFDFE;
+  padding: 1rem;
+  flex: 1 1 30%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.featured-list .card:hover {
+  background: #3F7Eb0;
+}
+
+.hero-wrap {
+  position: relative;
+  background: none;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  overflow: hidden; /* 保证浮动图片不跑出容器 */
+}
+
+.hero-badge {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 240px;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0.95;
+  z-index: 10;
+}
+
+.site-logo {
+  height: 32px;
+  margin: 10px;
+  vertical-align: middle;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.logo a,span{
+    color: #0F69A2;
+}
+
+@media (max-width: 768px) {
+  .hero-badge {
+    display: none;
+  }
+
+  .featured-list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .card-btn {
+    width: 100%;
+  }
+}
+
