@@ -43,6 +43,9 @@
     <nav class="nav">
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
+            {{ if site.Params.logo }}
+                <img class="site-logo" src="{{ site.Params.logo | absURL }}" alt="{{ site.Params.logoAlt }}" style="height: 32px; vertical-align: middle; margin-right: 0.5rem;">
+            {{ end }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{- if site.Params.label.icon }}

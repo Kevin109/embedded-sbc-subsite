@@ -23,6 +23,8 @@ defaultContentLanguage = "en"
   UseHugoToc = true
   comments = false
   disableSpecial1stPost = true
+  logo = "/favicon-64x64.png"
+  logoAlt = "Embedded SBC Logo"
 
 [params.assets]
   customCSS = ["css/custom.css"]
