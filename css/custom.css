@@ -21,6 +21,19 @@
   margin-right: auto !important;
   padding-left: 1rem;
   padding-right: 1rem;
+  background: #F5F5F5;
+  border-radius: 12px;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+.post-header{
+  background: #F9F9F9;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 }
 
 .post-content{
@@ -49,6 +62,15 @@
 }
 
 .entry-header .entry-hint-parent{
+    color: #1168A1;
+}
+
+.post-title{
+    font-size: 22px;
+    color: #1168A1;
+}
+
+.post-meta{
     color: #1168A1;
 }
 
@@ -102,6 +124,31 @@
 
 .logo a,span{
     color: #0F69A2;
+}
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs a {
+  color: #555;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs span {
+  font-weight: 500;
+  color: #555;
 }
 
 @media (max-width: 768px) {
