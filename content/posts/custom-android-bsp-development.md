@@ -84,9 +84,7 @@ We support BSP customization for several SoCs, including:
 
 Android BSP customization is the backbone of any successful embedded Android system. Whether you need to boot a custom display, integrate Wi-Fi modules, or enable OTA updates, mastering the BSP layer ensures a stable and production-ready system.
 
-For those looking to outsource both hardware and BSP-level development, this [custom embedded system design service](https://www.rocktech.com.hk/custom-embedded-system/) offers a full-stack solution from board design to Android firmware integration.
-
-At Embedded-SBC.com, we specialize in BSP-level customization for industrial and IoT products. Explore our case studies and contact us for tailored Android BSP solutions.
+For those looking to outsource both hardware and BSP-level development, this [custom embedded system design service](https://dev.to/kevinzhang109/why-our-custom-sbc-had-to-break-the-rectangle-rule-a-real-world-pcb-design-challenge-2e5f) offers a full-stack solution from board design to Android firmware integration.
 
 ---
 
