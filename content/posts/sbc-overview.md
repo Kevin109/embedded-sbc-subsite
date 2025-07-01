@@ -28,7 +28,7 @@ Typical features include:
 
 The journey of SBCs began in 1976 with the release of the **MMD-1**, a programmable microcontroller built around the Intel 8080. It was the world’s first commercial single-board computer. Throughout the 1980s, SBCs such as the KIM-1, BBC Micro, and Acorn Electron became popular in hobbyist and educational circles.
 
-In the 1990s, SBCs lost popularity as IBM-compatible PCs took over, offering more extensibility through standardized components like PCI cards. However, a significant shift occurred in the 2000s when embedded applications and USB standardization allowed hardware to shrink again. By the 2010s, powerful SBCs like the **Raspberry Pi** made computing more accessible than ever.
+In the 1990s, SBCs lost popularity as IBM-compatible PCs took over, offering more extensibility through standardized components like PCI cards. However, a significant shift occurred in the 2000s when embedded applications and USB standardization allowed hardware to shrink again. By the 2010s, [powerful SBCs](https://www.producthunt.com/products/rockchip-rk3566-android-sbc-by-rocktech?launch=rockchip-rk3566-android-sbc-by-rocktech) like the **Raspberry Pi** made computing more accessible than ever.
 
 In the 2020s, SBCs became the backbone of smartphones, tablets, smart home devices, and AI-driven edge systems. Modern SoCs now integrate high-performance CPUs, GPUs, storage, and connectivity onto a single die.
 
