@@ -74,3 +74,6 @@ Even without an in-house hardware team, partnering with an experienced embedded 
 Custom embedded systems are not just for large enterprises—they’re now accessible to startups and mid-sized OEMs alike. Whether you're building a next-generation smart home controller or a rugged industrial HMI, custom platforms allow you to fine-tune every layer of your device architecture.
 
 In a competitive market where reliability, performance, and differentiation matter, custom embedded systems provide the solid foundation that smart devices need to succeed.
+
+For more case studies and open-source SBC designs, visit the [SBC Projects tag on dev.to](https://dev.to/t/sbc) to explore recent developments in embedded Linux boards and Android platforms.
+
