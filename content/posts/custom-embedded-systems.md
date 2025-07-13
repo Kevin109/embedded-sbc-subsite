@@ -5,14 +5,6 @@ description: "Explore the benefits of custom embedded systems, including optimiz
 date: 2025-06-17
 keywords: ["Custom Embedded System", "Embedded Hardware Design", "Linux BSP", "Industrial SBC", "Embedded Development", "Smart Devices"]
 ---
----
-
-title: "Custom Embedded Systems "
-seo\_title: "Why Custom Embedded Systems Are Shaping the Future of Smart Devices"
-description: "Explore the benefits of custom embedded systems, including optimized performance, long-term support, and application-specific integration for smart devices and industrial applications."
-date: 2025-06-17
-keywords: \["Custom Embedded System", "Embedded Hardware Design", "Linux BSP", "Industrial SBC", "Embedded Development", "Smart Devices"]
------------------------------------------------------------------------------------------------------------------------------------------
 
 As smart devices become increasingly prevalent in sectors like home automation, industrial control, medical equipment, and consumer electronics, **custom embedded systems** have emerged as a powerful foundation for product innovation.
 
