@@ -6,25 +6,42 @@ date: 2025-06-17
 keywords: ["Custom Embedded System", "Embedded Hardware Design", "Linux BSP", "Industrial SBC", "Embedded Development", "Smart Devices"]
 ---
 
-As smart devices become increasingly prevalent in sectors like home automation, industrial control, medical equipment, and consumer electronics, **custom embedded systems** have emerged as a powerful foundation for product innovation.
+Looking to **build a custom embedded system** that fits your product—not the other way around?  
+Rocktech delivers **ARM-based SBC design**, **Linux/Android BSP customization**, and **mass-production readiness** for industrial, medical and commercial devices.
 
-Rather than relying on generic boards that may not fit specific project needs, developers are turning to purpose-built embedded platforms that offer greater control, efficiency, and scalability. For a broader technical overview of embedded computing systems, refer to <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="nofollow">this Wikipedia article</a>.
+> Explore our boards: [Embedded Single Board Computers](https://www.rocktech.com.hk/embedded-single-board-computers/) · Display options: [Industrial TFT Displays](https://www.rocktech.com.hk/industrial-tft-displays/)
 
 ---
 
 ## What Is a Custom Embedded System?
 
-A custom embedded system is a computing platform specifically designed for a single function or product. It integrates hardware and software tailored to the application’s performance, size, power, and interface requirements.
+A custom embedded system is a computing platform tailored to one application. It balances **performance, power, interfaces, form factor and lifecycle**.
 
-Key characteristics include:
+**Typical stack:**
+- ARM Cortex-A / Cortex-M SoC with app-specific I/O (RS485, CAN, LVDS/MIPI, etc.)
+- BSP for **Linux** or **Android** (drivers, device tree, HAL, OTA)
+- Custom mechanics: heat spreader, mounting, connector alignment
+- Compliance planning: EMC, medical/industrial standards
 
-* Application-specific form factor and layout
-* Processor and memory selected for workload needs
-* Custom I/O and communication interfaces
-* Optimized power consumption for mobile or low-energy environments
-* Long-term component availability for industrial-grade reliability
+For a general intro to embedded computing, see <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="nofollow">Embedded system (Wikipedia)</a>.
 
-These systems can be based on standard architectures like ARM Cortex-A or Cortex-M, and often leverage open-source software stacks such as Linux, Android, or FreeRTOS.
+---
+
+## Why Choose a Custom Solution?
+
+### Hardware Optimization
+Strip unused features, tune clocks and power domains → better performance, **lower EMI** and energy use.
+
+### Seamless Mechanical Integration
+Tight envelope? We align connectors, standoffs and thermal paths to your enclosure.
+
+### Lifecycle & Reliability
+Select **long-availability** components and plan PCN/eOL → stable supply for 7–10+ years.
+
+### Security & Compliance
+Secure boot, key storage, encrypted FS; workflows for **EMC/EMI**, **IEC 62368**, **ISO 13485** support.
+
+> See also: [Custom Embedded System Solutions](https://www.rocktech.com.hk/custom-embedded-system/) for touch UIs and edge interaction.
 
 ---
 
@@ -85,4 +102,31 @@ Custom embedded systems are not just for large enterprises—they’re now acces
 
 In a competitive market where reliability, performance, and differentiation matter, custom embedded systems provide the solid foundation that smart devices need to succeed.
 
-Need more inspiration? Join the discussion on <a href="https://dev.to/t/sbc" target="_blank" rel="nofollow">dev.to SBC community</a>, where developers share hands-on tutorials, project ideas, and troubleshooting insights.
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"What’s the difference between a custom embedded system and a standard SBC?",
+      "acceptedAnswer":{"@type":"Answer","text":"Custom platforms are tailored for your I/O, mechanics, security and lifecycle; standard SBCs are generic and may not meet compliance or supply goals."}
+    },
+    {
+      "@type":"Question",
+      "name":"Do you support Linux and Android BSP customization?",
+      "acceptedAnswer":{"@type":"Answer","text":"Yes. We handle drivers, device tree, HAL, OTA, secure boot and app-level APIs for both Linux and Android."}
+    },
+    {
+      "@type":"Question",
+      "name":"How long does a typical project take?",
+      "acceptedAnswer":{"@type":"Answer","text":"Concept-to-pilot typically takes 8–16 weeks; mass production adds 4–8 weeks for fixtures and ramp."}
+    },
+    {
+      "@type":"Question",
+      "name":"Can you help with EMC/EMI and compliance?",
+      "acceptedAnswer":{"@type":"Answer","text":"We design with compliance in mind and support pre-scan, tuning and documentation for regulatory submissions."}
+    }
+  ]
+}
+</script>
