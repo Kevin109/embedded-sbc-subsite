@@ -116,6 +116,7 @@ Efforts are underway to design more sustainable, modular SBCs that balance integ
 
 - Learn about <a href="https://en.wikipedia.org/wiki/Single-board_computer" target="_blank" rel="nofollow">Single-Board Computers (Wikipedia)</a>  
 - See market comparison on <a href="https://www.makeuseof.com/tag/best-raspberry-pi-alternatives/" target="_blank" rel="nofollow">Raspberry Pi Alternatives (MUO)</a>
+- For more insights into embedded computing and industrial display solutions: <a href="https://www.rocktech.com.hk/" target="_blank">Embedded SBC & Display Manufacturer</a>.
 
 ---
 

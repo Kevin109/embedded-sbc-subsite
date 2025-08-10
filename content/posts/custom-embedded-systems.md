@@ -9,8 +9,6 @@ keywords: ["Custom Embedded System", "Embedded Hardware Design", "Linux BSP", "I
 Looking to **build a custom embedded system** that fits your product—not the other way around?  
 Rocktech delivers **ARM-based SBC design**, **Linux/Android BSP customization**, and **mass-production readiness** for industrial, medical and commercial devices.
 
-> Explore our boards: [Embedded Single Board Computers](https://www.rocktech.com.hk/embedded-single-board-computers/) · Display options: [Industrial TFT Displays](https://www.rocktech.com.hk/industrial-tft-displays/)
-
 ---
 
 ## What Is a Custom Embedded System?
