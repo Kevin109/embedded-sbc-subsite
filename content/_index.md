@@ -33,8 +33,8 @@ We aim to provide useful knowledge for engineers, developers, and product teams 
 ##  Featured Posts
 
 <div class="featured-list">
+  <a href="/posts/sbc-overview/" class="card">SBC Overview</a>
   <a href="/posts/android-sbc-overview/" class="card">Android SBCs</a>
-  <a href="/posts/custom-sbc-solutions/" class="card">Custom Solutions</a>
-  <a href="/posts/sbc-selection-guide/" class="card">SBC Guide</a>
+  <a href="/posts/custom-embedded-systems/" class="card">Custom Solutions</a>
 </div>
 

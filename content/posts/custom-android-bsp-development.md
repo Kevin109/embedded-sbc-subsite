@@ -10,7 +10,7 @@ keywords: ["Custom Android BSP", "Rockchip PX30", "Embedded Android", "Linux Ker
 
 # Customizing Android BSPs for Embedded Projects
 
-When developing an embedded product that runs Android—whether it’s a smart control panel, industrial HMI, or consumer device—one of the most critical components is the **Android Board Support Package (BSP)**.
+When developing an embedded product that runs Android—whether it’s a smart control panel, industrial HMI, or consumer device — one of the most critical components is the **Android Board Support Package (BSP)** (more about [Android SBC overview](/posts/android-sbc-overview/)).
 
 In this post, we explore what the Android BSP is, where customization is needed, and best practices for making Android work reliably on your custom hardware.
 
@@ -25,6 +25,7 @@ An Android BSP is the foundation layer that adapts the Android operating system 
 - Device Tree files
 - HALs (Hardware Abstraction Layers)
 - Vendor-specific drivers and framework tweaks
+- [SBC basics and architecture](/posts/sbc-overview/)
 
 This layer ensures the Android OS can boot and interact correctly with your SoC, memory, peripherals, and custom board layout.
 
@@ -34,7 +35,7 @@ This layer ensures the Android OS can boot and interact correctly with your SoC,
 
 Customizing the Android BSP is often necessary when working with:
 
-- **Custom Display Panels** – including MIPI-DSI, LVDS, or RGB TFT modules.
+- **[Custom Display Panels](/posts/custom-embedded-systems/)** – including MIPI-DSI, LVDS, or RGB TFT modules.
 - **Touch Screens** – such as capacitive panels with GT911, FT5316, or custom I2C controllers.
 - **Wi-Fi / Bluetooth Modules** – Realtek, AP6256, or other chipsets often need firmware + driver integration.
 - **Backlight and GPIO Controls** – including power sequences and LED control via GPIO/I2C.

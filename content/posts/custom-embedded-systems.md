@@ -25,6 +25,17 @@ A custom embedded system is a computing platform tailored to one application. It
 
 For a general intro to embedded computing, see <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="nofollow">Embedded system (Wikipedia)</a>.
 
+<figure style="margin:1.25rem 0;text-align:center">
+  <img 
+    src="/images/Rockchip PX30 Custom SBC2.webp" 
+    alt="Rockchip PX30 custom SBC for embedded projects" 
+    loading="lazy" decoding="async" 
+    style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08)">
+  <figcaption style="color:#555;margin-top:.5rem">
+    Rockchip PX30-based custom SBC designed for embedded projects requiring stable performance and low power usage.
+  </figcaption>
+</figure>
+
 ---
 
 ## Why Choose a Custom Solution?
@@ -101,6 +112,21 @@ For instance, even if you don’t have a dedicated firmware team, BSP-level cust
 Custom embedded systems are not just for large enterprises—they’re now accessible to startups and mid-sized OEMs alike. Whether you're building a next-generation smart home controller or a rugged industrial HMI, custom platforms allow you to fine-tune every layer of your device architecture.
 
 In a competitive market where reliability, performance, and differentiation matter, custom embedded systems provide the solid foundation that smart devices need to succeed.
+
+<div class="related-guides">
+  <h3>Related Guides</h3>
+  <ul>
+    <li>
+      <a href="/posts/sbc-overview/">SBC Overview</a>
+      <span class="desc">Intro to SBC architectures and how to pick the right board for your project.</span>
+    </li>
+    <li>
+      <a href="/posts/android-sbc-overview/">Android SBCs</a>
+      <span class="desc">Why Android SBCs are gaining traction for HMI, signage, and smart terminals.</span>
+    </li>
+  </ul>
+</div>
+
 
 <script type="application/ld+json">
 {

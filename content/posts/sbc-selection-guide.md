@@ -10,7 +10,7 @@ draft: false
 
 # How to Choose the Right Single-Board Computer (SBC) for Your Project
 
-Single-board computers (SBCs) come in all shapes, sizes, and capabilities. From simple automation tasks to AI-driven edge computing, choosing the right SBC can save development time, reduce cost, and ensure long-term reliability.
+[Single-board computers (SBCs)](/posts/sbc-overview/) come in all shapes, sizes, and capabilities. From simple automation tasks to AI-driven edge computing, choosing the right SBC can save development time, reduce cost, and ensure long-term reliability.
 
 This guide outlines the key factors to consider when selecting the best SBC for your embedded or industrial project.
 
@@ -60,7 +60,7 @@ Check the availability of:
 
 ## 4. 📶 Networking & Wireless Connectivity
 
-Must-have for most IoT and mobile applications:
+Must-have for most IoT and mobile applications, especially in [Android-based SBCs](/posts/android-sbc-overview/) for connected devices:
 
 - **Wi-Fi 2.4/5GHz** — many SBCs have onboard chips or M.2 sockets
 - **Bluetooth** — often included with Wi-Fi
@@ -94,7 +94,7 @@ Ensure your target SBC supports:
 
 ## 7. 💰 Cost vs Longevity
 
-Don’t just choose the cheapest SBC. Look at:
+Don’t just choose the cheapest SBC. If you are developing a [custom embedded system](/posts/custom-embedded-systems/), also consider:
 
 - Long-term availability (3+ years)
 - Support for hardware revision tracking

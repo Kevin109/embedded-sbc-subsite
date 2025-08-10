@@ -8,6 +8,17 @@ keywords: ["SBC", "Single Board Computer", "Embedded SBC", "History of SBCs", "I
 
 A **Single-Board Computer (SBC)** is a fully functional computer built on a single circuit board. Unlike traditional desktop PCs that require multiple modules (motherboard, GPU, RAM, etc.), an SBC integrates the processor, memory, storage, input/output ports, and sometimes even networking components into one compact unit. These systems are widely used in education, prototyping, embedded control, and industrial automation.
 
+<figure style="margin:1.25rem 0;text-align:center">
+  <img 
+    src="/images/RK3566-S9.jpeg" 
+    alt="Single-Board Computer overview — ARM-based SBC with HDMI, USB, Ethernet and GPIO headers" 
+    loading="lazy" decoding="async" 
+    style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.08)">
+  <figcaption style="color:#555;margin-top:.5rem">
+    ARM-based SBC used in embedded systems — compact form factor with rich I/O for industrial and IoT projects.
+  </figcaption>
+</figure>
+
 ---
 
 ## 🕹 What Makes SBCs Unique?
@@ -113,3 +124,11 @@ Efforts are underway to design more sustainable, modular SBCs that balance integ
 Looking to see how SBCs are used in real embedded applications?  
 Check out this real-world integration of a compact 4-inch screen in a smart home panel:  
 👉 <a href="https://industrial-tft.com/posts/4inch-home-automation/" target="_blank">4-Inch Smart Display for Home Automation</a>
+
+<div class="related-guides">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/android-sbc-overview/">Android SBCs</a> – Explore Android-based single-board computers for UI-rich applications.</li>
+    <li><a href="/posts/custom-embedded-systems/">Custom Solutions</a> – Learn how to design and develop custom embedded systems for your project.</li>
+  </ul>
+</div>

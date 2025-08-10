@@ -6,7 +6,7 @@ date: 2025-06-21
 keywords: ["Embedded Linux", "Embedded Development", "Yocto", "Buildroot", "RTOS", "Linux Security Updates", "OpenWRT"]
 ---
 
-If your organization deploys IoT solutions, you already know that embedded system development differs significantly from standard desktop development. The low cost and open-source nature of Linux make it a popular choice for embedded projects. While some developers initially use virtual machines to emulate target environments, dedicated embedded Linux distributions provide a far more efficient and tailored development workflow.
+If your organization deploys IoT solutions, you already know that embedded system development differs significantly from standard desktop development. The low cost and open-source nature of Linux make it a popular choice for [embedded projects](/posts/sbc-overview/), especially when paired with modern SBC hardware platforms. While some developers initially use virtual machines to emulate target environments, dedicated embedded Linux distributions provide a far more efficient and tailored development workflow.
 
 ---
 
@@ -32,7 +32,7 @@ Examples of where Embedded Linux is used include:
 * Factory automation controllers
 * Medical monitoring devices
 
-The Android OS is one of the most well-known embedded Linux derivatives, powering billions of smartphones and smart devices worldwide.
+The Android OS is one of the most well-known embedded Linux derivatives, and many [Android-based SBCs](/posts/android-sbc-overview/) use it as a flexible platform for UI-driven applications, powering billions of smartphones and smart devices worldwide.
 
 ## Is Embedded Linux an RTOS?
 
@@ -103,7 +103,7 @@ Consider these factors when selecting an embedded Linux OS:
 * **Timing requirements:** RTOS or PREEMPT\_RT patches may be needed.
 * **Hardware constraints:** Lightweight distros like Buildroot work well for low-memory systems.
 * **User Interface:** Android or Qt-enabled Yocto builds are preferred if a GUI is needed.
-* **Time-to-market:** Choose a pre-integrated platform if you’re on a tight schedule.
+* **Time-to-market:** Choose a pre-integrated platform if you’re on a tight schedule — and if you are developing a fully [custom embedded system](/posts/custom-embedded-systems/), select a distro that can be maintained over the product’s entire lifecycle.
 
 ## Security and Software Updates
 

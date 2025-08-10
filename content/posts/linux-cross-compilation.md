@@ -6,7 +6,7 @@ date: 2025-06-30
 keywords: ["Cross-compilation", "Embedded Linux", "Toolchain", "Buildroot", "Yocto", "ARM SBC", "Linux kernel", "Device Tree"]
 ---
 
-Cross-compilation is an essential skill for developers working on embedded systems. Unlike standard Linux development, where code is compiled and run on the same architecture, embedded systems often use different CPU architectures (e.g., ARM, RISC-V) than your development machine (typically x86\_64). This guide provides a thorough overview of how cross-compilation works, why it matters, and how to set up your own environment for building Linux for embedded systems.
+Cross-compilation is an essential skill for developers working on embedded systems. Unlike standard Linux development, where code is compiled and run on the same architecture, embedded systems often use different CPU architectures (e.g., ARM, RISC-V) than your development machine (typically x86\_64). This guide provides a thorough overview of how cross-compilation works, why it matters, and how to set up your own environment for building Linux for embedded systems such as [ARM-based single-board computers](/posts/sbc-overview/) and other compact hardware platforms.
 
 ## What is Cross-Compilation?
 
@@ -22,7 +22,7 @@ Cross-compilation is the process of building executable code for a target system
 
 There are several reasons why cross-compilation is necessary:
 
-1. **Resource Constraints**: Embedded boards typically have limited CPU and RAM, making native compilation slow or impossible.
+1. **Resource Constraints**: Embedded boards—like those in [custom embedded system](/posts/custom-embedded-systems/) designs—typically have limited CPU and RAM, making native compilation slow or impossible.
 2. **Custom Kernels**: You'll often need to build custom Linux kernels or U-Boot versions specific to your board.
 3. **Optimized Binaries**: Cross-compilation allows building for performance-optimized targets using tailored compiler flags.
 
@@ -109,7 +109,7 @@ bitbake core-image-minimal
 
 ## Targeting ARM-based SBCs
 
-Many modern embedded Single Board Computers (SBCs), such as those using the Rockchip RK3566 or Allwinner A64, require specific BSPs (Board Support Packages). These usually include:
+Many modern embedded Single Board Computers (SBCs), such as those using the Rockchip RK3566 [Android SBC](/posts/android-sbc-overview/) or Allwinner A64, require specific BSPs (Board Support Packages). These usually include:
 
 * Cross-toolchain
 * U-Boot bootloader
