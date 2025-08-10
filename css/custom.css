@@ -164,3 +164,61 @@ body{
   }
 }
 
+<style>
+  .related-guides {
+    margin-top: 2rem;
+    padding: 1.25rem;
+    border: 1px solid rgba(0,0,0,.08);
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,.06);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .related-guides h3 {
+    margin: 0 0 .75rem 0;
+    font-size: 1.1rem;
+    letter-spacing: .2px;
+    color: #111;
+  }
+  .related-guides ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .6rem;
+  }
+  .related-guides li {
+    margin: 0;
+  }
+  .related-guides a {
+    text-decoration: none;
+    color: #0a57ff;
+    font-weight: 600;
+  }
+  .related-guides a:hover { text-decoration: underline; }
+  .related-guides .desc {
+    display: block;
+    color: #555;
+    font-weight: 400;
+    margin-top: .15rem;
+  }
+  /* 紧凑屏到宽屏的自适应 */
+  @media (min-width: 720px) {
+    .related-guides ul {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  /* 可选：暗色模式适配 */
+  @media (prefers-color-scheme: dark) {
+    .related-guides {
+      background: #111418;
+      border-color: rgba(255,255,255,.08);
+      box-shadow: 0 6px 18px rgba(0,0,0,.35);
+    }
+    .related-guides h3 { color: #f5f7fa; }
+    .related-guides .desc { color: #cbd5e1; }
+  }
+</style>
+
