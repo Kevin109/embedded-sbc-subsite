@@ -1,5 +1,5 @@
 ---
-title: "Industrial Linux: The Backbone of Modern Embedded Systems"
+title: "Industrial Linux"
 seo_title: "Industrial Linux: Applications, Advantages, and Use in Embedded SBCs"
 description: "A comprehensive introduction to Industrial Linux, covering its features, advantages, and why it's a preferred OS for industrial embedded single-board computers (SBCs)."
 date: 2025-06-11
