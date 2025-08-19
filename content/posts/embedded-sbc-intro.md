@@ -135,3 +135,5 @@ While industrial PCs remain relevant for applications requiring rapid expansion 
 
 **Conclusion:**  
 Embedded SBCs are a cornerstone of modern embedded system design, offering a reliable, customizable, and scalable foundation for a vast range of applications. As industries continue to embrace IoT, AI, and edge computing, mastering embedded SBC selection and integration will be a valuable skill for engineers and product developers alike.
+
+🔗 For further resources and curated references on SBCs and display solutions, visit our [official resource hub](https://linktr.ee/rocktech1).
