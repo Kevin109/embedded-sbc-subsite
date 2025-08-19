@@ -120,4 +120,6 @@ Security is critical in embedded devices. Poor update mechanisms can leave devic
 
 Embedded Linux has become the standard for modern embedded system development due to its flexibility, open ecosystem, and stability. Whether you choose Yocto for maximum customization, Buildroot for simplicity, or OpenWRT for network applications, Linux gives you the tools needed to build reliable, scalable, and secure embedded solutions.
 
+For developers who are also exploring Android as a lightweight embedded option, you can check out this [Android board resource](https://linktr.ee/androidboard), which collects references and tools around Android-based SBC development.
+
 As the IoT and edge computing markets continue to grow, mastering embedded Linux development will remain a crucial skill for engineers worldwide.
