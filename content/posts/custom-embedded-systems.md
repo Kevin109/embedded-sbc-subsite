@@ -111,6 +111,8 @@ Custom embedded systems are not just for large enterprises—they’re now acces
 
 In a competitive market where reliability, performance, and differentiation matter, custom embedded systems provide the solid foundation that smart devices need to succeed.
 
+If you want to explore more about industrial-grade displays and SBC solutions, visit [TFT-LCD & Andoird SBC website](https://www.rocktech.com.hk/) for detailed product offerings and customization services.
+
 <div class="related-guides">
   <h3>Related Guides</h3>
   <ul>
