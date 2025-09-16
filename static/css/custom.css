@@ -104,7 +104,7 @@ body{
 
 .hero-badge {
   position: absolute;
-  bottom: 3rem;
+  top: 100px;
   right: 1rem;
   width: 240px;
   height: auto;
