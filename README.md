@@ -5,6 +5,7 @@ Welcome to the Embedded-SBC Subsite GitHub repository, the official codebase beh
 The site exists to fill a critical gap for engineers, product designers, and technology enthusiasts who want to understand not only what SBCs are, but also how they are applied in real-world industrial, IoT, and consumer use cases. Unlike generic articles on electronics, the content here is written with a strong technical foundation, featuring real design considerations, performance trade-offs, and product development workflows.
 
 You can explore the live website here: [https://embedded-sbc.com/](https://embedded-sbc.com/)
+
 ---
 
 ## What This Repository Contains
@@ -104,7 +105,7 @@ This project is not a traditional software library. Instead, it is the backbone 
 By combining practical blog content with transparent source code, we believe this project sets a new standard for technical publishing in the embedded systems space.
 
 If you are working on embedded product design, exploring SBC platforms, or evaluating whether to build a custom embedded system, we encourage you to:
-- Visit https://embedded-sbc.com/
+- Visit [https://embedded-sbc.com/](https://embedded-sbc.com/)
 - Read the latest articles
 - Fork this repo and adapt it for your own documentation needs
 
