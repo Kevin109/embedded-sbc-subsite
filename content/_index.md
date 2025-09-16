@@ -27,6 +27,7 @@ We aim to provide useful knowledge for engineers, developers, and product teams 
     We aim to provide useful knowledge for engineers, <br>
     developers, and product teams building reliable embedded products.
   </div>
+  <br>
   <p>Source code and deployment scripts available on our 
     <a href="https://github.com/Kevin109/embedded-sbc-subsite">GitHub repository</a>.
   </p>
