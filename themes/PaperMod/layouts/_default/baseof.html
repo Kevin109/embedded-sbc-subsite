@@ -21,6 +21,129 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
+
+    <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+        
+        <form class="contact-form" action="#" method="post" novalidate>
+          <!-- honeypot (anti-bot) -->
+          <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp-field" aria-hidden="true">
+
+          <div class="form-grid">
+            <div class="form-control">
+              <label for="cf-name">Your Name</label>
+              <input id="cf-name" name="name" type="text" placeholder="e.g., Tony" required minlength="2">
+            </div>
+
+            <div class="form-control">
+              <label for="cf-email">Work Email</label>
+              <input id="cf-email" name="email" type="email" placeholder="you@company.com" required>
+            </div>
+
+            <div class="form-control">
+              <label for="cf-company">Company</label>
+              <input id="cf-company" name="company" type="text" placeholder="Company / Organization" required>
+            </div>
+
+            <div class="form-control">
+              <label for="cf-subject">Subject</label>
+              <input id="cf-subject" name="subject" type="text" placeholder="Inquiry for Embedded SBC" required>
+            </div>
+
+            <div class="form-control form-control--full">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="5"
+                placeholder="Specs, quantities, drawings, delivery terms…" required></textarea>
+            </div>
+          </div>
+
+          <div class="form-foot">
+            <label class="chk">
+              <input type="checkbox" name="consent" required>
+              <span>I agree that Embedded SBC Team may contact me regarding this inquiry.</span>
+            </label>
+
+            <button class="btn-send" type="submit" aria-label="Send message to Android Board">Send Message</button>
+          </div>
+
+          <!-- status placeholder; hook it up later -->
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+        <script>
+          document.querySelector(".contact-form").addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const status = document.querySelector(".form-status");
+
+            const data = {
+              name: form.name.value.trim(),
+              email: form.email.value.trim(),
+              company: form.company.value.trim(),
+              subject: form.subject.value.trim(),
+              message: form.message.value.trim(),
+              website: form.website.value, // honeypot
+              token: "abc123",
+              source: "embedded-sbc.com"   // ⭐来源标识
+            };
+
+            // ===== 前端校验 =====
+            if (!data.name || data.name.length < 2) {
+              status.innerText = "Please enter a valid name.";
+              return;
+            }
+
+            if (!data.email || !/^\S+@\S+\.\S+$/.test(data.email)) {
+              status.innerText = "Please enter a valid email.";
+              return;
+            }
+
+            if (!data.company) {
+              status.innerText = "Please enter your company.";
+              return;
+            }
+
+            if (!data.subject) {
+              status.innerText = "Please enter a subject.";
+              return;
+            }
+
+            if (!data.message || data.message.length < 10) {
+              status.innerText = "Message must be at least 10 characters.";
+              return;
+            }
+
+            if (!form.consent.checked) {
+              status.innerText = "Please agree to the privacy policy before submitting.";
+              return;
+            }
+
+            try {
+              const res = await fetch("https://api.android-board.com/send", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+              });
+
+              if (res.ok) {
+                status.innerText = "Message sent successfully!";
+                form.reset();
+              } else {
+                status.innerText = "Failed to send message.";
+              }
+
+            } catch (err) {
+              status.innerText = "Error connecting to server.";
+            }
+          });
+        </script>
+      </div>
+    </div>
+  </section>
+
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 

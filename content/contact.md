@@ -13,7 +13,7 @@ We’d love to hear from you.
 
 If you have feedback about our articles, questions about embedded SBC development, or you're interested in contributing or collaborating — feel free to reach out.
 
-**Email:** contact@embedded-sbc.com
+**Email:** sales@android-board.com
 
 We try to respond to all inquiries within 2–3 working days.
 

@@ -7,6 +7,7 @@
 .single-title,
 .single-header,
 .page-header,
+.contact-wrap,
 .list {
   max-width: 860px !important;
   margin-left: auto !important;
@@ -220,5 +221,121 @@ body{
     .related-guides h3 { color: #f5f7fa; }
     .related-guides .desc { color: #cbd5e1; }
   }
-</style>
+
+
+/* form */
+.contact-form {
+  background: #fff;
+  border: 1px solid rgba(0, 33, 117, .10);
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 10px 24px rgba(0, 33, 117, .08);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 18px;
+}
+
+.form-control {
+  display: grid;
+  gap: 6px;
+}
+
+.form-control--full {
+  grid-column: 1 / -1;
+}
+
+.form-control label {
+  font-size: 16px;
+  color: #273d67;
+  font-weight: 500;
+  text-align: left;
+}
+
+.form-control input,
+.form-control textarea {
+  width: 100% -32px;
+  padding: 12px 12px;
+  border-radius: 12px;
+  border: 1px solid #d7e2f3;
+  background: #fdfefe;
+  outline: none;
+  font-size: 16px;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  border-color: var(--blue-600, #1E88E5);
+  box-shadow: 0 0 0 4px rgba(30, 136, 229, .15);
+}
+
+.form-foot {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.chk {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #37507c;
+  font-size: .94rem;
+}
+
+.btn-send {
+  appearance: none;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: #3F8ED0;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(255, 198, 241, .3);
+  transition: transform .12s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.btn-send:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.03);
+}
+
+.btn-send:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 14px rgba(255, 198, 214, .28);
+}
+
+/* honeypot hidden */
+.hp-field {
+  position: absolute;
+  left: -99999px;
+}
+
+/* status placeholder */
+.form-status {
+  margin-top: 10px;
+  min-height: 20px;
+  color: #21416e;
+  font-size: 16px;
+}
+
+/* responsive */
+@media (max-width: 980px) {
+  .contact-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
