@@ -141,7 +141,7 @@ Industrial Linux can achieve near-RTOS performance while offering far broader ha
 
 
 **Conclusion:**  
-Industrial Linux has become the **backbone of modern embedded systems**, offering unmatched flexibility, cost efficiency, and long-term reliability. By pairing it with a capable industrial SBC, developers can create robust, secure, and future-proof solutions for any sector — from manufacturing to medical technology.
+Industrial Linux has become the **backbone of modern embedded systems**, offering unmatched flexibility, cost efficiency, and long-term reliability. By pairing it with a capable [industrial SBC](https://www.avontek.com/industrial-sbc/), developers can create robust, secure, and future-proof solutions for any sector — from manufacturing to medical technology.
 
 <script type="application/ld+json">
 {
