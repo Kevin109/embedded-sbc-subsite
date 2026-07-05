@@ -1,15 +1,19 @@
 ---
-title: "Custom Embedded Systems "
-seo_title: "Why Custom Embedded Systems Are Shaping the Future of Smart Devices"
-description: "Explore the benefits of custom embedded systems, including optimized performance, long-term support, and application-specific integration for smart devices and industrial applications."
-date: 2025-06-17
+title: "Custom Embedded Systems"
+seo_title: "Custom Embedded Systems for Smart and Industrial Devices"
+description: "Explore custom embedded systems for optimized hardware, long-term support, security, mechanical fit, BSP integration, and industrial applications."
+date: 2026-01-27
 keywords: ["Custom Embedded System", "Embedded Hardware Design", "Linux BSP", "Industrial SBC", "Embedded Development", "Smart Devices"]
+cover:
+  image: "/images/posts/custom-embedded-systems-hero.webp"
+  alt: "Custom Embedded Systems hero image"
+images:
+  - "/images/posts/custom-embedded-systems-hero.webp"
 ---
 
 Looking to **build a custom embedded system** that fits your product—not the other way around?  
 Rocktech delivers **ARM-based SBC design**, **Linux/Android BSP customization**, and **mass-production readiness** for industrial, medical and commercial devices.
 
----
 
 ## What Is a Custom Embedded System?
 
@@ -21,7 +25,7 @@ A custom embedded system is a computing platform tailored to one application. It
 - Custom mechanics: heat spreader, mounting, connector alignment
 - Compliance planning: EMC, medical/industrial standards
 
-For a general intro to embedded computing, see <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="nofollow">Embedded system (Wikipedia)</a>.
+For a general intro to embedded computing, see <a href="https://en.wikipedia.org/wiki/Embedded_system" target="_blank" rel="nofollow noopener">Embedded system (Wikipedia)</a>.
 
 <figure style="margin:1.25rem 0;text-align:center">
   <img 
@@ -34,7 +38,6 @@ For a general intro to embedded computing, see <a href="https://en.wikipedia.org
   </figcaption>
 </figure>
 
----
 
 ## Why Choose a Custom Solution?
 
@@ -52,7 +55,6 @@ Secure boot, key storage, encrypted FS; workflows for **EMC/EMI**, **IEC 62368**
 
 > See also: [Custom Embedded System Solutions](https://www.rocktech.com.hk/custom-embedded-system/) for touch UIs and edge interaction.
 
----
 
 ## Key Benefits
 
@@ -74,7 +76,6 @@ Standard SBCs may become obsolete within a few years. A custom solution can be b
 
 Security-critical applications can benefit from embedded secure elements, trusted boot mechanisms, encrypted storage, and compliance with industry regulations like ISO 13485 or IEC 62443.
 
----
 
 ## When Should You Consider Custom Design?
 
@@ -86,7 +87,6 @@ You might need a custom embedded system when:
 * Lifecycle, certification, or security requirements are non-negotiable
 * BOM cost optimization is essential for high-volume manufacturing
 
----
 
 ## From Idea to Production
 
@@ -103,7 +103,6 @@ Many startups and SMEs hesitate to pursue custom SBCs due to perceived complexit
 
 For instance, even if you don’t have a dedicated firmware team, BSP-level customization can be outsourced while your team focuses on app-layer logic.
 
----
 
 ## Final Thoughts
 

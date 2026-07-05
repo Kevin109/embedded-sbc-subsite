@@ -1,20 +1,24 @@
 ---
 title: "Customizing Android BSP"
-seo_title:: "Customizing Android BSPs for Embedded Projects"
-description: "Learn how to efficiently customize Android BSPs for embedded systems, including display drivers, touch panel integration, and best practices for Rockchip and Allwinner platforms."
-date: 2025-06-15
+seo_title: "Customizing Android BSPs for Embedded Projects"
+description: "Learn Android BSP customization for embedded systems, including display drivers, touch panels, device tree, OTA, and Rockchip or Allwinner platforms."
+date: 2026-02-03
 slug: custom-android-bsp-development
 tags: ["Android BSP", "Embedded Linux", "Rockchip", "Allwinner", "Device Tree"]
 keywords: ["Custom Android BSP", "Rockchip PX30", "Embedded Android", "Linux Kernel Customization"]
+cover:
+  image: "/images/posts/custom-android-bsp-development-hero.webp"
+  alt: "Customizing Android BSP hero image"
+images:
+  - "/images/posts/custom-android-bsp-development-hero.webp"
 ---
 
-# Customizing Android BSPs for Embedded Projects
+## Customizing Android BSPs for Embedded Projects
 
 When developing an embedded product that runs Android—whether it’s a smart control panel, industrial HMI, or consumer device — one of the most critical components is the **Android Board Support Package (BSP)** (more about [Android SBC overview](/posts/android-sbc-overview/)).
 
 In this post, we explore what the Android BSP is, where customization is needed, and best practices for making Android work reliably on your custom hardware.
 
----
 
 ## What Is an Android BSP?
 
@@ -29,7 +33,6 @@ An Android BSP is the foundation layer that adapts the Android operating system 
 
 This layer ensures the Android OS can boot and interact correctly with your SoC, memory, peripherals, and custom board layout.
 
----
 
 ## Common BSP Customization Scenarios
 
@@ -40,9 +43,8 @@ Customizing the Android BSP is often necessary when working with:
 - **Wi-Fi / Bluetooth Modules** – Realtek, AP6256, or other chipsets often need firmware + driver integration.
 - **Backlight and GPIO Controls** – including power sequences and LED control via GPIO/I2C.
 - **Custom Peripherals** – barcode scanners, UART/I2C sensors, or KNX-based interfaces.
-- **Secure Boot and A/B OTA Update Support** – for industrial-grade reliability.
+- **[Secure Boot and A/B OTA Update Support](/posts/secure-firmware-update-rollback/)** – for industrial-grade reliability.
 
----
 
 ## Challenges in BSP Development
 
@@ -50,10 +52,9 @@ Some common challenges developers face include:
 
 - **Vendor SDK lock-in** – You often rely on SoC vendor BSPs with limited documentation.
 - **Legacy kernel versions** – Some BSPs are based on outdated kernels (e.g., 4.4 or 4.19).
-- **Complex DTS structure** – Device Tree overlays and GPIO mapping can be error-prone.
+- **Complex DTS structure** – [Device Tree overlays](/posts/device-tree-review-checklist/) and GPIO mapping can be error-prone.
 - **Slow build-test-debug cycles** – Especially when modifying both kernel and Android framework layers.
 
----
 
 ## Best Practices from Our Experience
 
@@ -65,7 +66,6 @@ To handle BSP-level development efficiently, we recommend:
 4. **Automating build and flash processes** – Save time by scripting repetitive tasks.
 5. **Documenting everything** – Even small changes in DTS or HALs can become hard to track.
 
----
 
 ## Platform Support
 
@@ -79,7 +79,6 @@ We support BSP customization for several SoCs, including:
 
 > Need support for other platforms? Contact us to discuss your hardware.
 
----
 
 ## Conclusion
 
@@ -87,6 +86,5 @@ Android BSP customization is the backbone of any successful embedded Android sys
 
 For those looking to outsource both hardware and BSP-level development, this [custom embedded system design service](https://dev.to/kevinzhang109/why-our-custom-sbc-had-to-break-the-rectangle-rule-a-real-world-pcb-design-challenge-2e5f) offers a full-stack solution from board design to Android firmware integration.
 
----
 
 *Written by the Embedded-SBC.com team*

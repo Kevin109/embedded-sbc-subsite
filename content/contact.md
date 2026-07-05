@@ -1,12 +1,12 @@
 ---
 title: "Contact us"
+seo_title: "Contact Embedded SBC"
+description: "Contact the Embedded SBC team for article feedback, collaboration, or questions about Android SBC, Linux SBC, and embedded board development topics."
 date: 2025-06-11
 draft: false
 hideMeta: true
 type: "page"
 layout: "about"
----
-
 ---
 
 We’d love to hear from you.

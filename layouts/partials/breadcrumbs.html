@@ -1,6 +1,6 @@
 {{- if (.Param "ShowBreadCrumbs") -}}
 <div class="breadcrumbs">
-  <a href="{{ "" | absLangURL }}">{{ i18n "home" | default "Home" }}</a>
+  <a href="{{ "" | relLangURL }}">{{ i18n "home" | default "Home" }}</a>
 
   {{- $url := replace .Parent.Permalink (printf "%s" site.Home.Permalink) "" }}
   {{- $lang_url := strings.TrimPrefix (printf "%s/" .Lang) $url -}}
@@ -12,7 +12,7 @@
 
     {{- if and $bc_pg (ne $bc_pg.Name "Blog") }}
       {{- print "&nbsp;»&nbsp;" | safeHTML -}}
-      <a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
+      <a href="{{ $bc_pg.RelPermalink }}">{{ $bc_pg.Name }}</a>
     {{- end }}
     
   {{- end }}

@@ -1,5 +1,7 @@
 ---
 title: "Privacy Policy"
+seo_title: "Embedded SBC Privacy Policy"
+description: "Read the Embedded SBC privacy policy, including how this site handles personal data, tracking cookies, analytics, and contact requests."
 date: 2025-06-11
 draft: false
 ---

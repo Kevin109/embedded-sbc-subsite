@@ -30,6 +30,19 @@ defaultContentLanguage = "en"
   customCSS = ["css/custom.css"]
   disableFingerprinting = false
 
+[params.schema]
+  publisherType = "Organization"
+  sameAs = [
+    "https://www.rocktech.com.hk/",
+    "https://android-sbc.com/",
+    "https://github.com/Kevin109/embedded-sbc-subsite"
+  ]
+
+  [params.schema.contactPoint]
+    contactType = "editorial"
+    email = "sales@android-board.com"
+    availableLanguage = ["en"]
+
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
@@ -47,12 +60,60 @@ defaultContentLanguage = "en"
 [[menu.main]]
   name = "About us"
   url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Hubs"
+  identifier = "hubs"
+  url = "/embedded-sbc/"
   weight = 2
+
+[[menu.main]]
+  name = "Embedded SBC"
+  parent = "hubs"
+  url = "/embedded-sbc/"
+  weight = 1
+
+[[menu.main]]
+  name = "Custom Embedded Systems"
+  parent = "hubs"
+  url = "/custom-embedded-systems/"
+  weight = 2
+
+[[menu.main]]
+  name = "Embedded SoC"
+  parent = "hubs"
+  url = "/embedded-soc/"
+  weight = 3
+
+[[menu.main]]
+  name = "Edge AI Computing"
+  parent = "hubs"
+  url = "/edge-ai-computing/"
+  weight = 4
+
+[[menu.main]]
+  name = "Industrial Embedded Computing"
+  parent = "hubs"
+  url = "/industrial-embedded-computing/"
+  weight = 5
+
+[[menu.main]]
+  name = "Embedded Interfaces"
+  parent = "hubs"
+  url = "/embedded-interfaces/"
+  weight = 6
+
+[[menu.main]]
+  name = "Firmware & BSP"
+  parent = "hubs"
+  url = "/embedded-firmware-bsp/"
+  weight = 7
 
 [[menu.main]]
   name = "Contact us"
   url = "/contact/"
-  weight = 3
+  weight = 4
 
 [sitemap]
   changeFreq = "weekly"

@@ -1,13 +1,18 @@
 ---
 title: "Understanding Serial Ports"
-seo_title: "Serial Ports in SBCs: UART, RS232, and RS485 Explained for Embedded Systems"
-description: "A practical guide to serial communication in single board computers (SBCs), explaining UART basics, RS232 and RS485 interfaces, Linux serial devices, and common industrial applications."
+seo_title: "SBC Serial Ports: UART, RS232, and RS485 Explained"
+description: "A practical guide to SBC serial ports, covering UART basics, RS232, RS485, Linux serial devices, debugging, and industrial applications."
 date: 2026-03-07
 keywords: ["SBC serial port", "UART communication", "RS232 interface", "RS485 industrial communication", "embedded serial communication", "Linux serial port", "UART debugging"]
 draft: false
+cover:
+  image: "/images/posts/understanding-serial-ports-in-single-board-computers-hero.webp"
+  alt: "Understanding Serial Ports hero image"
+images:
+  - "/images/posts/understanding-serial-ports-in-single-board-computers-hero.webp"
 ---
 
-# Understanding Serial Ports in Single Board Computers (SBCs): Principles, Interfaces, and Applications
+## Understanding Serial Ports in Single Board Computers (SBCs): Principles, Interfaces, and Applications
 
 Serial communication is one of the most fundamental technologies used in embedded systems. Even as modern hardware platforms incorporate high-speed interfaces such as USB, Ethernet, and PCIe, serial ports remain widely used due to their simplicity, reliability, and low hardware requirements.
 
@@ -15,9 +20,8 @@ In Single Board Computers (SBCs), serial ports are commonly used for system debu
 
 This article explains the role of serial ports in SBC systems, how serial communication works, the most common serial standards, and how these interfaces are used in real-world embedded applications.
 
----
 
-# What Is a Serial Port?
+## What Is a Serial Port?
 
 A serial port is a communication interface that transmits data **one bit at a time** over a communication channel. Unlike parallel interfaces that transmit multiple bits simultaneously, serial communication sends data sequentially.
 
@@ -35,9 +39,8 @@ In many systems, additional signals may also be present, such as:
 
 Serial ports allow SBCs to communicate with a wide range of devices including sensors, modems, microcontrollers, and industrial control equipment.
 
----
 
-# Why Serial Ports Are Still Important in SBCs
+## Why Serial Ports Are Still Important in SBCs
 
 Although modern SBCs support high-speed interfaces, serial ports remain extremely important for several reasons.
 
@@ -51,13 +54,11 @@ Serial communication requires very few wires. In many cases, only three lines ar
 
 This simplicity makes serial interfaces easy to integrate into embedded hardware designs.
 
----
 
 ### Reliable Communication
 
 Serial communication protocols are mature and widely supported. They provide stable communication even in environments where noise or interference may affect more complex interfaces.
 
----
 
 ### Essential for System Debugging
 
@@ -72,15 +73,13 @@ Engineers commonly use the serial console to:
 
 Even when the graphical system fails to start, the serial console can still provide access to the system.
 
----
 
 ### Industrial Compatibility
 
 Many industrial devices still rely on serial communication standards such as **RS232 and RS485**. SBC platforms often include serial ports to maintain compatibility with industrial infrastructure.
 
----
 
-# UART: The Core Serial Communication Module
+## UART: The Core Serial Communication Module
 
 In most SBC platforms, serial communication is implemented using **UART (Universal Asynchronous Receiver/Transmitter)**.
 
@@ -97,9 +96,8 @@ Instead, communication is synchronized using predefined parameters such as:
 - parity
 - stop bits
 
----
 
-# Key Serial Communication Parameters
+## Key Serial Communication Parameters
 
 For two devices to communicate over UART, they must use the same communication parameters.
 
@@ -115,7 +113,6 @@ Common baud rates include:
 
 Higher baud rates allow faster communication but may require better signal integrity.
 
----
 
 ### Data Bits
 
@@ -126,7 +123,6 @@ Typical settings include:
 - 7 bits
 - 8 bits (most common)
 
----
 
 ### Parity
 
@@ -140,7 +136,6 @@ Common parity settings include:
 
 Many embedded systems use **no parity** to simplify communication.
 
----
 
 ### Stop Bits
 

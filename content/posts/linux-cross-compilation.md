@@ -2,8 +2,13 @@
 title: "Linux Cross-Compilation"
 seo_title: "Mastering Linux Cross-Compilation for Embedded Systems"
 description: "A comprehensive guide to cross-compiling Linux for embedded systems, covering toolchains, build systems, architecture-specific nuances, and practical examples."
-date: 2025-06-30
+date: 2026-02-21
 keywords: ["Cross-compilation", "Embedded Linux", "Toolchain", "Buildroot", "Yocto", "ARM SBC", "Linux kernel", "Device Tree"]
+cover:
+  image: "/images/posts/linux-cross-compilation-hero.webp"
+  alt: "Linux Cross-Compilation hero image"
+images:
+  - "/images/posts/linux-cross-compilation-hero.webp"
 ---
 
 Cross-compilation is an essential skill for developers working on embedded systems. Unlike standard Linux development, where code is compiled and run on the same architecture, embedded systems often use different CPU architectures (e.g., ARM, RISC-V) than your development machine (typically x86\_64). This guide provides a thorough overview of how cross-compilation works, why it matters, and how to set up your own environment for building Linux for embedded systems such as [ARM-based single-board computers](/posts/sbc-overview/) and other compact hardware platforms.
@@ -181,6 +186,3 @@ Cross-compiling Linux for embedded systems may seem complex at first, but with t
 This article was prepared for developers using [embedded-sbc.com](https://embedded-sbc.com/) to learn about embedded Linux topics. For advanced SBCs like RK3566 or PX30, refer to your vendor’s SDK and prebuilt environments to save time.
 
 Want to dive deeper? Follow more tutorials at [embedded-sbc.com](https://embedded-sbc.com/posts/) or explore real-world SBC examples on our blog.
-
----
-

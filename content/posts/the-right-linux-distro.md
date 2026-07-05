@@ -1,14 +1,18 @@
 ---
 title: "The Right Linux Distro"
 seo_title: "A Complete Guide to Embedded Linux Distributions and Development"
-description: "Discover the best Linux distributions for embedded systems, understand the difference between Embedded Linux and RTOS, and learn how to keep your IoT devices secure with smart update strategies."
-date: 2025-06-21
+description: "Compare embedded Linux options such as Yocto, Buildroot, and OpenWRT, and learn how to select a secure, maintainable OS for SBC projects."
+date: 2026-02-15
 keywords: ["Embedded Linux", "Embedded Development", "Yocto", "Buildroot", "RTOS", "Linux Security Updates", "OpenWRT"]
+cover:
+  image: "/images/posts/the-right-linux-distro-hero.webp"
+  alt: "The Right Linux Distro hero image"
+images:
+  - "/images/posts/the-right-linux-distro-hero.webp"
 ---
 
 If your organization deploys IoT solutions, you already know that embedded system development differs significantly from standard desktop development. The low cost and open-source nature of Linux make it a popular choice for [embedded projects](/posts/sbc-overview/), especially when paired with modern SBC hardware platforms. While some developers initially use virtual machines to emulate target environments, dedicated embedded Linux distributions provide a far more efficient and tailored development workflow.
 
----
 
 ## Why Use Linux for Embedded Systems?
 

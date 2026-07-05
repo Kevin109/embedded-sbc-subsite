@@ -44,10 +44,10 @@
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{ if site.Params.logo }}
-                <img class="site-logo" src="{{ site.Params.logo | absURL }}" alt="{{ site.Params.logoAlt }}" style="height: 32px; vertical-align: middle; margin-right: 0.5rem;">
+                <img class="site-logo" src="{{ site.Params.logo | relURL }}" alt="{{ site.Params.logoAlt }}" style="height: 32px; vertical-align: middle; margin-right: 0.5rem;">
             {{ end }}
             {{- if site.Title }}
-            <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
+            <a href="{{ "" | relLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
                 {{- if site.Params.label.icon }}
                 {{- $img := resources.Get site.Params.label.icon }}
                 {{- if $img }}
@@ -63,10 +63,10 @@
                             {{- $img = $img.Resize "x30" }}
                         {{- end }}
                     {{- end }}
-                    <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
+                    <img src="{{ $img.RelPermalink }}" alt="" aria-label="logo"
                         height="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- else }}
-                <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
+                <img src="{{- site.Params.label.icon | relURL -}}" alt="" aria-label="logo"
                     height="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
@@ -125,11 +125,13 @@
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
-            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            {{- $is_external := strings.HasPrefix .URL "http" }}
+            {{- $normalized_url := cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) }}
+            {{- $menu_item_url := cond $is_external .URL ($normalized_url | relLangURL) }}
+            {{- $page_url:= $currentPage.RelPermalink }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
-            <li>
-                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+            <li {{- if .HasChildren }} class="menu-item-has-children" {{- end }}>
+                <a href="{{ cond $is_external .URL (.URL | relLangURL) }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{- .Pre }}
@@ -145,6 +147,22 @@
                     </svg>
                     {{- end }}
                 </a>
+                {{- if .HasChildren }}
+                <ul class="submenu" aria-label="{{ .Name }} submenu">
+                    {{- range .Children }}
+                    {{- $child_is_external := strings.HasPrefix .URL "http" }}
+                    {{- $child_normalized_url := cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) }}
+                    {{- $child_menu_item_url := cond $child_is_external .URL ($child_normalized_url | relLangURL) }}
+                    <li>
+                        <a href="{{ cond $child_is_external .URL (.URL | relLangURL) }}" title="{{ .Title | default .Name }}">
+                            <span {{- if eq $child_menu_item_url $page_url }} class="active" {{- end }}>
+                                {{- .Name -}}
+                            </span>
+                        </a>
+                    </li>
+                    {{- end }}
+                </ul>
+                {{- end }}
             </li>
             {{- end }}
         </ul>

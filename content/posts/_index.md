@@ -1,6 +1,8 @@
 ---
 title: "Blog"
-date: 2025-06-11
+seo_title: "Embedded SBC Technical Articles"
+description: "Browse technical articles about Android SBCs, Linux SBCs, embedded systems, SoC selection, BSP customization, and industrial board design."
+date: 2026-01-05
 draft: false
 ---
 

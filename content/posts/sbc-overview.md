@@ -1,9 +1,14 @@
 ---
 title: "Overview of SBCs"
-seo_title: "Overview of SBCs: What Are Single-Board Computers and How Are They Used in Embedded Systems?"
-description: "Learn the history, architecture, and real-world applications of single-board computers (SBCs), including modern use cases in IoT, automation, and edge computing."
-date: 2025-06-12
+seo_title: "Overview of SBCs: Single-Board Computer Basics and Embedded Uses"
+description: "Learn single-board computer basics, architecture, common SBC types, industrial uses, IoT applications, and edge computing considerations."
+date: 2026-01-10
 keywords: ["SBC", "Single Board Computer", "Embedded SBC", "History of SBCs", "IoT SBC", "Industrial SBC"]
+cover:
+  image: "/images/posts/sbc-overview-hero.webp"
+  alt: "Overview of SBCs hero image"
+images:
+  - "/images/posts/sbc-overview-hero.webp"
 ---
 
 A **Single-Board Computer (SBC)** is a fully functional computer built on a single circuit board. Unlike traditional desktop PCs that require multiple modules (motherboard, GPU, RAM, etc.), an SBC integrates the processor, memory, storage, input/output ports, and sometimes even networking components into one compact unit. These systems are widely used in education, prototyping, embedded control, and industrial automation.
@@ -19,7 +24,6 @@ A **Single-Board Computer (SBC)** is a fully functional computer built on a sing
   </figcaption>
 </figure>
 
----
 
 ## 🕹 What Makes SBCs Unique?
 
@@ -33,7 +37,6 @@ Typical features include:
 - **I/O Interfaces** such as HDMI, USB, UART, GPIO, and Ethernet  
 - **Optional Wireless Connectivity** like Wi-Fi and Bluetooth
 
----
 
 ## 🧭 A Brief History of SBCs
 
@@ -43,7 +46,6 @@ In the 1990s, SBCs lost popularity as IBM-compatible PCs took over, offering mor
 
 In the 2020s, SBCs became the backbone of smartphones, tablets, smart home devices, and AI-driven edge systems. Modern SoCs now integrate high-performance CPUs, GPUs, storage, and connectivity onto a single die.
 
----
 
 ## 🔍 SBCs vs Traditional Computers
 
@@ -57,7 +59,6 @@ In the 2020s, SBCs became the backbone of smartphones, tablets, smart home devic
 
 SBCs trade extensibility for size, integration, and efficiency. They're ideal when space, power, or cost are critical factors.
 
----
 
 ## 🧠 Types of SBC Architectures
 
@@ -72,7 +73,6 @@ SBCs come in several categories depending on how they are used:
 - **Computer-on-Module (CoM)**  
   Technically a subclass of SBCs, these are plug-in modules that require carrier boards. Used in applications needing custom form factors.
 
----
 
 ## 🛠 Common Use Cases of SBCs
 
@@ -85,7 +85,6 @@ SBCs are versatile and deployed across many industries:
 - **Education**: Teaching programming and hardware design  
 - **Aerospace & Exploration**: SBCs are used in deep-sea probes and spacecraft due to their low power and high reliability
 
----
 
 ## ⚙️ Technological Evolution: From DIY to AI
 
@@ -98,7 +97,6 @@ Modern SBCs like Rockchip-based models offer:
 - Dual-display support (HDMI + MIPI/DSI)  
 - High-speed storage interfaces (eMMC, NVMe, SATA)
 
----
 
 ## 🌱 Challenges and Sustainability
 
@@ -110,21 +108,19 @@ Despite their advantages, SBCs raise concerns regarding:
 
 Efforts are underway to design more sustainable, modular SBCs that balance integration with serviceability.
 
----
 
 ## 📚 Further Reading
 
-- Learn about <a href="https://en.wikipedia.org/wiki/Single-board_computer" target="_blank" rel="nofollow">Single-Board Computers (Wikipedia)</a>  
-- See market comparison on <a href="https://www.makeuseof.com/tag/best-raspberry-pi-alternatives/" target="_blank" rel="nofollow">Raspberry Pi Alternatives (MUO)</a>
-- For more insights into embedded computing and industrial display solutions: <a href="https://www.rocktech.com.hk/" target="_blank">Embedded SBC & Display Manufacturer</a>.
+- Learn about <a href="https://en.wikipedia.org/wiki/Single-board_computer" target="_blank" rel="nofollow noopener">Single-Board Computers (Wikipedia)</a>
+- See market comparison on <a href="https://www.makeuseof.com/tag/best-raspberry-pi-alternatives/" target="_blank" rel="nofollow noopener">Raspberry Pi Alternatives (MUO)</a>
+- For more insights into embedded computing and industrial display solutions: <a href="https://www.rocktech.com.hk/" target="_blank" rel="noopener">Embedded SBC & Display Manufacturer</a>.
 
----
 
 ## 🧩 Practical Example
 
 Looking to see how SBCs are used in real embedded applications?  
 Check out this real-world integration of a compact 4-inch screen in a smart home panel:  
-👉 <a href="https://industrial-tft.com/posts/4inch-home-automation/" target="_blank">4-Inch Smart Display for Home Automation</a>
+👉 <a href="https://industrial-tft.com/posts/4inch-home-automation/" target="_blank" rel="noopener">4-Inch Smart Display for Home Automation</a>
 
 <div class="related-guides">
   <h3>Related Guides</h3>
