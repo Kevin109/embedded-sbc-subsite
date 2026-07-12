@@ -110,3 +110,11 @@ If you are working on embedded product design, exploring SBC platforms, or evalu
 - Fork this repo and adapt it for your own documentation needs
 
 Together, let’s build a stronger open knowledge base for the future of embedded computing.
+
+---
+
+## Editorial Roadmap and Article Status
+
+The site-wide inventory and the next 100 planned articles are maintained in the [content roadmap](docs/content-roadmap.md). Every new article must use a roadmap ID in its Front Matter and update the matching roadmap status when research, writing, review, or publication begins.
+
+The article archetype includes the required `roadmap_id` and `roadmap_status` fields so new work is tracked from the start.
