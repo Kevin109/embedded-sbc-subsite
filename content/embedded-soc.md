@@ -53,6 +53,7 @@ Teams should also verify documentation access and commercial support early. A pl
 
 ## Hub Articles
 
+- [RK3568 vs RK3576 vs RK3588 SoC comparison](/posts/rk3568-vs-rk3576-vs-rk3588-embedded-products/)
 - [NXP vs ST vs TI Embedded SoC Selection](/posts/nxp-vs-st-vs-ti-embedded-soc/)
 - [Qualcomm and MediaTek Platforms for Connected Edge Devices](/posts/qualcomm-mediatek-connected-edge-devices/)
 - [Low-Power Embedded SoC Selection](/posts/low-power-embedded-soc-selection/)

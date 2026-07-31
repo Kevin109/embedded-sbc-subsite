@@ -80,6 +80,7 @@ Factory test planning should cover:
 
 ## Hub Articles
 
+- [Yocto vs Buildroot for production embedded Linux](/posts/yocto-vs-buildroot-production-embedded-linux/)
 - [Factory Flashing Workflow for Embedded Linux Products](/posts/factory-flashing-workflow-embedded-linux/)
 - [Secure Boot Key Management for Embedded Products](/posts/secure-boot-key-management-embedded-products/)
 - [Edge AI Gateway Design for Industrial Systems](/posts/edge-ai-gateway-design-industrial-systems/)

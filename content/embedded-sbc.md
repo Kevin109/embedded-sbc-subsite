@@ -63,6 +63,7 @@ Teams also underestimate production details. A device needs a way to flash firmw
 
 ## Hub Articles
 
+- [embedded SBC specification checklist](/posts/product-requirements-to-sbc-specification/)
 - [Embedded SBC Power Input Design for Product Reliability](/posts/embedded-sbc-power-input-design/)
 - [eMMC, microSD, and NVMe Storage Reliability for Embedded SBCs](/posts/embedded-sbc-storage-reliability/)
 - [Embedded SBC Product Validation Checklist](/posts/embedded-sbc-product-validation-checklist/)
