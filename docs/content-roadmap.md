@@ -1,8 +1,10 @@
 # Embedded-SBC.com 内容盘点与 100 篇文章路线图
 
-> 最后更新：2026-07-12  
-> 维护范围：`content/posts/` 中的文章；7 个顶层 Hub 页面单独统计。  
-> 当前基线：50 篇已发布文章、7 个 Hub 页面、100 篇待写文章（0/100 已完成）。
+> 最后更新：2026-07-31
+>
+> 维护范围：`content/posts/` 中的文章；7 个顶层 Hub 页面单独统计。
+>
+> 当前状态：53 篇已发布文章、7 个 Hub 页面、100 篇计划文章（3/100 已完成）。
 
 ## 状态标记规则
 
@@ -102,9 +104,9 @@ roadmap_status: "writing"
 
 | ID | 状态 | Hub | 建议文章标题 | 核心任务 |
 |---|---|---|---|---|
-| ESB-P001 | ⬜ | Firmware & BSP | Yocto vs Buildroot for Production Embedded Linux | 用团队规模、更新周期、构建时间和维护成本做选择 |
-| ESB-P002 | ⬜ | Embedded SoC | RK3568 vs RK3576 vs RK3588 for Embedded Products | 比较 CPU/NPU、显示、摄像头、功耗与产品定位 |
-| ESB-P003 | ⬜ | Embedded SBC | How to Turn Product Requirements into an SBC Specification | 把 PRD 转成可采购、可验证的板卡规格 |
+| ESB-P001 | ✅ | Firmware & BSP | [Yocto vs Buildroot for Production Embedded Linux](../content/posts/yocto-vs-buildroot-production-embedded-linux.md) | 用团队规模、更新周期、构建时间和维护成本做选择 |
+| ESB-P002 | ✅ | Embedded SoC | [RK3568 vs RK3576 vs RK3588 for Embedded Products](../content/posts/rk3568-vs-rk3576-vs-rk3588-embedded-products.md) | 比较 CPU/NPU、显示、摄像头、功耗与产品定位 |
+| ESB-P003 | ✅ | Embedded SBC | [How to Turn Product Requirements into an SBC Specification](../content/posts/product-requirements-to-sbc-specification.md) | 把 PRD 转成可采购、可验证的板卡规格 |
 | ESB-P004 | ⬜ | Firmware & BSP | Android A/B OTA Updates on Embedded SBCs | 讲清分区、签名、失败回滚和量产验证 |
 | ESB-P005 | ⬜ | Industrial Computing | Designing a Modbus RTU-to-TCP Industrial Gateway | 覆盖隔离、轮询、缓存、异常恢复与测试 |
 | ESB-P006 | ⬜ | Edge AI | How to Benchmark Edge AI Hardware with a Real Workload | 建立延迟、吞吐、功耗、温度和准确率方法 |
