@@ -1,10 +1,10 @@
 # Embedded-SBC.com 内容盘点与 100 篇文章路线图
 
-> 最后更新：2026-07-31
+> 最后更新：2026-09-18
 >
 > 维护范围：`content/posts/` 中的文章；7 个顶层 Hub 页面单独统计。
 >
-> 当前状态：53 篇已发布文章、7 个 Hub 页面、100 篇计划文章（3/100 已完成）。
+> 当前状态：66 篇已发布文章、7 个 Hub 页面、100 篇计划文章（16/100 已完成）。
 
 ## 状态标记规则
 
@@ -107,19 +107,19 @@ roadmap_status: "writing"
 | ESB-P001 | ✅ | Firmware & BSP | [Yocto vs Buildroot for Production Embedded Linux](../content/posts/yocto-vs-buildroot-production-embedded-linux.md) | 用团队规模、更新周期、构建时间和维护成本做选择 |
 | ESB-P002 | ✅ | Embedded SoC | [RK3568 vs RK3576 vs RK3588 for Embedded Products](../content/posts/rk3568-vs-rk3576-vs-rk3588-embedded-products.md) | 比较 CPU/NPU、显示、摄像头、功耗与产品定位 |
 | ESB-P003 | ✅ | Embedded SBC | [How to Turn Product Requirements into an SBC Specification](../content/posts/product-requirements-to-sbc-specification.md) | 把 PRD 转成可采购、可验证的板卡规格 |
-| ESB-P004 | ⬜ | Firmware & BSP | Android A/B OTA Updates on Embedded SBCs | 讲清分区、签名、失败回滚和量产验证 |
-| ESB-P005 | ⬜ | Industrial Computing | Designing a Modbus RTU-to-TCP Industrial Gateway | 覆盖隔离、轮询、缓存、异常恢复与测试 |
-| ESB-P006 | ⬜ | Edge AI | How to Benchmark Edge AI Hardware with a Real Workload | 建立延迟、吞吐、功耗、温度和准确率方法 |
-| ESB-P007 | ⬜ | Custom Systems | Custom SBC Schematic Review Checklist | 面向电源、时钟、启动、DDR、接口和调试的审查表 |
-| ESB-P008 | ⬜ | Embedded SBC | ARM vs x86 for Industrial Embedded Systems | 比较性能、功耗、BSP、生命周期与维护 |
-| ESB-P009 | ⬜ | Firmware & BSP | A/B Partition Layout for Reliable Embedded Linux OTA | 从存储布局到掉电恢复给出落地方案 |
-| ESB-P010 | ⬜ | Embedded SoC | NXP i.MX 93 vs i.MX 95 for New Embedded Designs | 聚焦工业 HMI、网关、AI 与实时控制取舍 |
-| ESB-P011 | ⬜ | Embedded Interfaces | MIPI DSI vs LVDS vs eDP vs HDMI for Embedded Displays | 按分辨率、线缆、EMI、成本和驱动支持选择 |
-| ESB-P012 | ⬜ | Embedded SBC | SBC Lifecycle and Obsolescence Planning | 建立 EOL、替代料、BSP 和库存风险机制 |
-| ESB-P013 | ⬜ | Firmware & BSP | Android Kiosk Mode and Device Owner for Dedicated Devices | 面向 HMI、终端和自助设备的锁定与运维 |
-| ESB-P014 | ⬜ | Custom Systems | Design for Manufacturing Checklist for Custom Embedded Boards | 从 PCB 到装配、工艺边和可制造性审查 |
-| ESB-P015 | ⬜ | Firmware & BSP | SBOM and CVE Response for Embedded Linux Products | 建立组件清单、漏洞判断、修复和客户通知流程 |
-| ESB-P016 | ⬜ | Embedded Interfaces | Ethernet PHY, Magnetics, and Connector Design for SBCs | 覆盖选型、走线、隔离、PoE 冲突和验证 |
+| ESB-P004 | ✅ | Firmware & BSP | [Android A/B OTA Updates on Embedded SBCs](../content/posts/android-ab-ota-updates-embedded-sbc.md) | 讲清分区、签名、失败回滚和量产验证 |
+| ESB-P005 | ✅ | Industrial Computing | [Designing a Modbus RTU-to-TCP Industrial Gateway](../content/posts/modbus-rtu-tcp-industrial-gateway.md) | 覆盖隔离、轮询、缓存、异常恢复与测试 |
+| ESB-P006 | ✅ | Edge AI | [How to Benchmark Edge AI Hardware with a Real Workload](../content/posts/edge-ai-hardware-benchmark-real-workload.md) | 建立延迟、吞吐、功耗、温度和准确率方法 |
+| ESB-P007 | ✅ | Custom Systems | [Custom SBC Schematic Review Checklist](../content/posts/custom-sbc-schematic-review-checklist.md) | 面向电源、时钟、启动、DDR、接口和调试的审查表 |
+| ESB-P008 | ✅ | Embedded SBC | [ARM vs x86 for Industrial Embedded Systems](../content/posts/arm-vs-x86-industrial-embedded-systems.md) | 比较性能、功耗、BSP、生命周期与维护 |
+| ESB-P009 | ✅ | Firmware & BSP | [A/B Partition Layout for Reliable Embedded Linux OTA](../content/posts/ab-partition-layout-embedded-linux-ota.md) | 从存储布局到掉电恢复给出落地方案 |
+| ESB-P010 | ✅ | Embedded SoC | [NXP i.MX 93 vs i.MX 95 for New Embedded Designs](../content/posts/nxp-imx93-vs-imx95-embedded-design.md) | 聚焦工业 HMI、网关、AI 与实时控制取舍 |
+| ESB-P011 | ✅ | Embedded Interfaces | [MIPI DSI vs LVDS vs eDP vs HDMI for Embedded Displays](../content/posts/mipi-dsi-lvds-edp-hdmi-display-comparison.md) | 按分辨率、线缆、EMI、成本和驱动支持选择 |
+| ESB-P012 | ✅ | Embedded SBC | [SBC Lifecycle and Obsolescence Planning](../content/posts/sbc-lifecycle-obsolescence-planning.md) | 建立 EOL、替代料、BSP 和库存风险机制 |
+| ESB-P013 | ✅ | Firmware & BSP | [Android Kiosk Mode and Device Owner for Dedicated Devices](../content/posts/android-kiosk-device-owner.md) | 面向 HMI、终端和自助设备的锁定与运维 |
+| ESB-P014 | ✅ | Custom Systems | [Design for Manufacturing Checklist for Custom Embedded Boards](../content/posts/design-for-manufacturing-embedded-boards.md) | 从 PCB 到装配、工艺边和可制造性审查 |
+| ESB-P015 | ✅ | Firmware & BSP | [SBOM and CVE Response for Embedded Linux Products](../content/posts/sbom-cve-response-embedded-linux.md) | 建立组件清单、漏洞判断、修复和客户通知流程 |
+| ESB-P016 | ✅ | Embedded Interfaces | [Ethernet PHY, Magnetics, and Connector Design for SBCs](../content/posts/ethernet-phy-magnetics-connector-design.md) | 覆盖选型、走线、隔离、PoE 冲突和验证 |
 | ESB-P017 | ⬜ | Edge AI | INT8 Quantization for Edge AI: Accuracy, Speed, and Calibration | 解释量化数据、算子限制和验收标准 |
 | ESB-P018 | ⬜ | Custom Systems | EVT, DVT, and PVT for Embedded Hardware Products | 给出各阶段输入、样机数、测试和退出条件 |
 | ESB-P019 | ⬜ | Embedded SBC | Embedded Linux Boot Time Optimization | 用可测量的启动链分析缩短上电到可用时间 |
