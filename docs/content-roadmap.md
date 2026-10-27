@@ -1,10 +1,10 @@
 # Embedded-SBC.com 内容盘点与 100 篇文章路线图
 
-> 最后更新：2026-09-18
+> 最后更新：2026-10-27
 >
 > 维护范围：`content/posts/` 中的文章；7 个顶层 Hub 页面单独统计。
 >
-> 当前状态：66 篇已发布文章、7 个 Hub 页面、100 篇计划文章（16/100 已完成）。
+> 当前状态：74 篇已发布文章、7 个 Hub 页面、100 篇计划文章（24/100 已完成）。
 
 ## 状态标记规则
 
@@ -120,14 +120,14 @@ roadmap_status: "writing"
 | ESB-P014 | ✅ | Custom Systems | [Design for Manufacturing Checklist for Custom Embedded Boards](../content/posts/design-for-manufacturing-embedded-boards.md) | 从 PCB 到装配、工艺边和可制造性审查 |
 | ESB-P015 | ✅ | Firmware & BSP | [SBOM and CVE Response for Embedded Linux Products](../content/posts/sbom-cve-response-embedded-linux.md) | 建立组件清单、漏洞判断、修复和客户通知流程 |
 | ESB-P016 | ✅ | Embedded Interfaces | [Ethernet PHY, Magnetics, and Connector Design for SBCs](../content/posts/ethernet-phy-magnetics-connector-design.md) | 覆盖选型、走线、隔离、PoE 冲突和验证 |
-| ESB-P017 | ⬜ | Edge AI | INT8 Quantization for Edge AI: Accuracy, Speed, and Calibration | 解释量化数据、算子限制和验收标准 |
-| ESB-P018 | ⬜ | Custom Systems | EVT, DVT, and PVT for Embedded Hardware Products | 给出各阶段输入、样机数、测试和退出条件 |
-| ESB-P019 | ⬜ | Embedded SBC | Embedded Linux Boot Time Optimization | 用可测量的启动链分析缩短上电到可用时间 |
-| ESB-P020 | ⬜ | Embedded Interfaces | CAN FD Interface Design for Embedded Linux SBCs | 覆盖控制器、收发器、终端、隔离和 SocketCAN |
-| ESB-P021 | ⬜ | Firmware & BSP | Secure Device Identity and Factory Key Provisioning | 连接安全存储、证书、工厂工位和审计 |
-| ESB-P022 | ⬜ | Firmware & BSP | Yocto Layer Architecture for a Maintainable Product BSP | 分离上游、SoC、板级、产品和客户层 |
-| ESB-P023 | ⬜ | Edge AI | Multi-Camera Bandwidth and Memory Planning for Edge Vision | 计算 CSI、ISP、DDR、编码与推理数据流 |
-| ESB-P024 | ⬜ | Industrial Computing | Wide-Temperature Validation for Industrial SBC Products | 设计冷热启动、满载、存储和接口测试 |
+| ESB-P017 | ✅ | Edge AI | [INT8 Quantization for Edge AI: Accuracy, Speed, and Calibration](../content/posts/int8-quantization-edge-ai.md) | 解释量化数据、算子限制和验收标准 |
+| ESB-P018 | ✅ | Custom Systems | [EVT, DVT, and PVT for Embedded Hardware Products](../content/posts/evt-dvt-pvt-embedded-hardware.md) | 给出各阶段输入、样机数、测试和退出条件 |
+| ESB-P019 | ✅ | Embedded SBC | [Embedded Linux Boot Time Optimization](../content/posts/embedded-linux-boot-time-optimization.md) | 用可测量的启动链分析缩短上电到可用时间 |
+| ESB-P020 | ✅ | Embedded Interfaces | [CAN FD Interface Design for Embedded Linux SBCs](../content/posts/can-fd-interface-design-linux-sbc.md) | 覆盖控制器、收发器、终端、隔离和 SocketCAN |
+| ESB-P021 | ✅ | Firmware & BSP | [Secure Device Identity and Factory Key Provisioning](../content/posts/secure-device-identity-factory-provisioning.md) | 连接安全存储、证书、工厂工位和审计 |
+| ESB-P022 | ✅ | Firmware & BSP | [Yocto Layer Architecture for a Maintainable Product BSP](../content/posts/yocto-layer-architecture-product-bsp.md) | 分离上游、SoC、板级、产品和客户层 |
+| ESB-P023 | ✅ | Edge AI | [Multi-Camera Bandwidth and Memory Planning for Edge Vision](../content/posts/multi-camera-bandwidth-memory-edge-vision.md) | 计算 CSI、ISP、DDR、编码与推理数据流 |
+| ESB-P024 | ✅ | Industrial Computing | [Wide-Temperature Validation for Industrial SBC Products](../content/posts/wide-temperature-validation-industrial-sbc.md) | 设计冷热启动、满载、存储和接口测试 |
 | ESB-P025 | ⬜ | Firmware & BSP | AOSP, CTS, VTS, and GMS: What Embedded Android Teams Need | 澄清认证边界、成本、测试和发布影响 |
 
 ### Wave 2：工程实施（ESB-P026–ESB-P050）
