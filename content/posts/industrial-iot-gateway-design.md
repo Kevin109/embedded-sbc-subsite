@@ -17,6 +17,8 @@ An industrial IoT gateway is not just a small computer with Ethernet. It sits be
 
 This guide explains how to design an embedded gateway as a product, not a lab prototype. The details apply whether the compute platform is a standard SBC, a SOM carrier, or a custom board based on NXP, ST, Qualcomm, MediaTek, TI, or another embedded processor.
 
+Our [industrial embedded computing](/industrial-embedded-computing/) guide provides the wider power, environment, lifecycle, and maintenance context for gateway design.
+
 ## Define the Gateway Role
 
 The word gateway can mean many things. Some products only bridge RS485 data to Ethernet. Others run local analytics, handle cellular fallback, connect to cloud services, or manage dozens of field devices. The architecture should be based on the actual role.

@@ -17,6 +17,8 @@ Choosing the SoC for a custom embedded system is one of the highest-impact decis
 
 This guide looks at SoC selection from a product engineering perspective, with examples from NXP, ST, Qualcomm, and MediaTek. The goal is not to declare one vendor "best." The right platform depends on the product's workload, lifecycle, interface requirements, software ownership, and business constraints.
 
+Our [embedded SoC selection](/embedded-soc/) guide connects these vendor choices with interface, software, and lifecycle requirements.
+
 ## Start From the Product, Not the Chip
 
 A custom embedded system should begin with a product requirement set. The SoC is selected to serve that requirement set. If the team starts by choosing a high-performance processor and then tries to force the product around it, the design often becomes more expensive and harder to maintain.

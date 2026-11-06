@@ -16,6 +16,8 @@ Low-power embedded SoC selection is not solved by reading the lowest number in a
 
 Low-power design matters for battery devices, handheld instruments, fanless products, sealed enclosures, solar-powered gateways, and devices that must meet strict thermal limits. The right SoC decision should be made together with power architecture, firmware, mechanical design, and field behavior.
 
+Use our [embedded SoC selection](/embedded-soc/) guide to balance the power profile against interfaces, software support, and product lifecycle.
+
 ## Define the Power Profile First
 
 Start by describing how the device spends time. A product may boot once a day, wake every minute, stream continuously, or sleep for months. Average power is a duty-cycle problem. Peak power still matters because the battery, converter, and thermal path must support it.

@@ -19,6 +19,7 @@ images:
 
 This guide outlines the key factors to consider when selecting the best SBC for your embedded or industrial project.
 
+Use our [embedded SBC](/embedded-sbc/) guide for the architecture and product integration context behind this selection checklist.
 
 ## 1. 🎯 Define Your Application Requirements
 

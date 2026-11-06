@@ -1,23 +1,34 @@
-# Repository content rules
+# 仓库内容规范
 
-## Content roadmap is mandatory
+## 语言要求
 
-The source of truth for editorial status is `docs/content-roadmap.md`.
+- 本文件使用中文描述，方便维护者阅读。
+- 站点文章使用英文，包括标题、正文和内链锚文本。
 
-Whenever creating, drafting, reviewing, or publishing an article under `content/posts/`:
+## 必须遵循内容路线图
 
-1. Select an unused `ESB-Pxxx` item from the roadmap before writing.
-2. Change that row to the correct status: `🔎`, `✍️`, `🧪`, or `✅`.
-3. Add the same ID to the article Front Matter as `roadmap_id`.
-4. Keep `roadmap_status` synchronized with the roadmap row.
-5. When publishing, link the roadmap title to the Markdown article, update the roadmap completion count, and update its last-updated date.
-6. Do not mark an item `✅` until the article exists, `draft: false`, its cover image exists, and the Hugo build succeeds.
+文章编辑状态以 `docs/content-roadmap.md` 为唯一依据。
 
-If the user explicitly requests an article outside the planned 100, add it to an `Additional queue` section in the roadmap with the next `ESB-Axxx` ID before writing it. No new article may be published without a roadmap ID and status mark.
+在 `content/posts/` 下创建、起草、审阅或发布文章时，必须遵循以下要求：
 
-## Article quality baseline
+1. 写作前，先从路线图中选择一个尚未使用的 `ESB-Pxxx` 条目。
+2. 将该条目的状态更新为对应的 `🔎`、`✍️`、`🧪` 或 `✅`。
+3. 在文章 Front Matter 中添加 `roadmap_id`，值为同一个条目 ID。
+4. 保持文章的 `roadmap_status` 与路线图条目状态同步。
+5. 发布时，将路线图中的标题链接到对应的 Markdown 文章，并更新路线图的完成数量和最后更新日期。
+6. 只有文章文件存在、设置了 `draft: false`、封面图片存在且 Hugo 构建成功后，才能将条目标记为 `✅`。
 
-- Use official primary sources for changing specifications, software support periods, regulations, certifications, and product lifecycle claims.
-- Link each new article to its Hub, at least two relevant existing articles, and at least one related roadmap article when available.
-- Include a practical decision aid such as a checklist, matrix, calculation, test procedure, failure tree, or acceptance criteria.
-- Run `hugo --minify` before considering an article complete.
+如果用户明确要求撰写原计划 100 篇之外的文章，必须先在路线图的 `Additional queue` 部分添加条目，使用下一个 `ESB-Axxx` ID，然后再开始写作。任何新文章发布前都必须具备路线图 ID 和状态标记。
+
+## 文章质量基本要求
+
+- 涉及可能变化的规格、软件支持期限、法规、认证和产品生命周期等信息时，必须使用官方一手来源。
+- 每篇新文章都必须链接到所属 Hub、至少两篇相关的现有文章，以及至少一篇相关的路线图文章（如有）。
+- 必须提供实用的决策辅助内容，例如检查清单、对比矩阵、计算方法、测试流程、故障树或验收标准。
+- 将文章视为完成之前，必须运行 `hugo --minify` 并确保构建成功。
+
+## 内链锚文本要求
+
+- 内链锚文本必须使用自然、符合读者搜索习惯的英文关键词，与目标页面的主题匹配。
+- 每个内链锚文本最多包含 2~5 个英文单词。
+- 关键词必须准确描述目标页面，避免使用 “click here”、“read more” 或 “this article” 等泛化表达，也不得堆砌关键词。

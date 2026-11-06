@@ -17,6 +17,8 @@ Camera pipeline design can make or break an edge AI vision product. A model may 
 
 This guide explains camera pipeline design for embedded vision products such as inspection devices, smart cameras, access terminals, retail analytics devices, and industrial monitoring systems. It focuses on product engineering decisions rather than only model accuracy.
 
+Evaluate the camera pipeline alongside the workload, hardware, and deployment decisions in our [edge AI computing](/edge-ai-computing/) guide.
+
 ## Start With the Scene
 
 The first design input is the real scene, not the camera datasheet. A camera used for factory inspection has different needs from a doorway access terminal or a shelf-monitoring device. Lighting, distance, movement, reflection, and installation angle all affect the image.

@@ -28,6 +28,7 @@ Built on the Linux kernel, Android SBCs combine the flexibility of open-source d
   </figcaption>
 </figure>
 
+For the broader architecture and product selection criteria, start with our [embedded SBC](/embedded-sbc/) guide.
 
 ## 1. 📱 Why Choose Android for SBCs?
 
@@ -43,6 +44,8 @@ Unlike traditional Linux SBCs, which often require significant setup for GUI env
 
 
 ## 2. 🧠 Typical Hardware Specifications
+
+Before comparing board specifications, use the [Android SoC selection](/posts/choosing-socs-for-android-sbcs/) guide to define display, interface, and BSP requirements.
 
 Android SBCs are often based on ARM Cortex-A processors with integrated GPUs. Common specs include:
 
@@ -117,6 +120,7 @@ Security in Android SBC deployments often includes:
 
 Enterprises deploying Android SBCs at scale often rely on MDM to ensure devices remain compliant and secure throughout their lifecycle.
 
+For unattended terminals, plan [Android kiosk management](/posts/android-kiosk-device-owner/) alongside application deployment, recovery access, and fleet maintenance.
 
 ## 7. 🔮 Future Trends for Android SBCs
 

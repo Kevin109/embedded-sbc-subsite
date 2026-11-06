@@ -16,6 +16,8 @@ Qualcomm and MediaTek platforms are often considered when an embedded product ne
 
 The decision should not be framed as "mobile SoC versus industrial SoC" in a generic way. The useful question is whether the platform's strengths match the product's required behavior and whether the team can support the software and compliance path over the life of the device.
 
+Our [embedded SoC selection](/embedded-soc/) guide provides a broader framework for comparing connectivity-focused platforms with other embedded options.
+
 ## Where These Platforms Are Strong
 
 Qualcomm and MediaTek platforms can bring integrated cellular, Wi-Fi, Bluetooth, GNSS, ISP, video codec, AI acceleration, display, audio, and power management options. That integration can reduce board area and improve power efficiency compared with assembling many discrete parts around a simpler processor.

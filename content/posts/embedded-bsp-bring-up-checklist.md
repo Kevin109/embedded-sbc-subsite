@@ -17,6 +17,8 @@ BSP bring-up is the work that turns a board into a usable product platform. It i
 
 This checklist is written for teams working with embedded Linux boards, custom SBCs, compute modules, and SoC platforms such as NXP i.MX, ST STM32MP, Qualcomm, MediaTek, and similar embedded application processors. The details vary by platform, but the engineering sequence is similar.
 
+Use our [firmware and BSP](/embedded-firmware-bsp/) guide to connect board bring-up with the product update and maintenance workflow.
+
 ## 1. Confirm the Hardware Baseline
 
 Before changing bootloader or kernel code, confirm the exact hardware revision. BSP problems are often caused by mismatches between board revision, [device tree](/posts/device-tree-review-checklist/), power rails, and component substitutions.
@@ -50,6 +52,8 @@ Check:
 - Watchdog behavior during boot
 
 For a production product, bootloader configuration should not remain in a development state. Disable unnecessary delays, protect critical environment settings, and define how service access works.
+
+Once boot is reliable, use the [Linux boot optimization](/posts/embedded-linux-boot-time-optimization/) workflow to measure power-on to application readiness before removing delays or changing initialization.
 
 ## 3. Validate Device Tree and Kernel Configuration
 

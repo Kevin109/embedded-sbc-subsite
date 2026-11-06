@@ -15,6 +15,7 @@ An **Embedded Single-Board Computer (SBC)** is a compact yet powerful computing 
 
 Embedded SBCs strike a balance between performance, size, and energy efficiency, making them an essential building block for modern **IoT devices**, **industrial control systems**, and **AI-enabled edge computing solutions**.
 
+Continue with our [embedded SBC](/embedded-sbc/) guide for product selection factors and system integration checks.
 
 ## 🛠 Core Components of an Embedded SBC
 

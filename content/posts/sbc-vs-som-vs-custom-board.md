@@ -17,6 +17,8 @@ Choosing between a [standard SBC](/posts/sbc-overview/), a system-on-module, and
 
 This guide compares the three paths from a product engineering point of view. The goal is not to argue that one approach is always better. The right answer depends on volume, lifecycle, interface needs, enclosure constraints, software ownership, certification, and the team's ability to support hardware and BSP work.
 
+Our [embedded SBC](/embedded-sbc/) guide provides the system requirements and integration context for choosing the board architecture.
+
 ## What a Standard SBC Solves
 
 A standard SBC is the fastest way to begin software and system validation. It provides processor, memory, storage, power management, and common I/O on one board. For prototypes, pilot builds, internal tools, and low-volume systems, this can be the most practical path.

@@ -15,6 +15,7 @@ images:
 
 Its flexibility, open-source foundation, and rich ecosystem make it one of the most widely used operating systems in industrial computing today.
 
+Review Linux choices alongside the hardware reliability and field-deployment requirements of [industrial embedded computing](/industrial-embedded-computing/).
 
 ## 🛠 What is Industrial Linux?
 

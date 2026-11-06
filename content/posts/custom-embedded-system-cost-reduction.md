@@ -16,6 +16,8 @@ Cost reduction in a custom embedded system is not the same as choosing cheaper p
 
 The best time to reduce cost is during architecture planning, before the PCB, enclosure, firmware, and factory process are locked. At that stage, the team can choose the right compute approach, remove unused interfaces, simplify power, standardize connectors, and reduce manufacturing time. Late cost reduction is still possible, but it must be handled with evidence.
 
+Review cost decisions within the full requirements-to-production workflow for [custom embedded systems](/custom-embedded-systems/).
+
 ## Start With Product Value, Not Unit Price
 
 A custom design should earn its cost by matching the product better than a generic board. That means the team must understand which features matter to users and which features are only inherited from a development platform. A board with five unused ports, excessive memory, oversized storage, and a complex cable harness may look flexible but cost more than the product requires.

@@ -17,6 +17,8 @@ RS485, CAN, and Ethernet are common interfaces in embedded SBC products because 
 
 Good interface planning treats each port as part of the product architecture. The electrical layer, connector, protection, firmware behavior, diagnostics, and factory test process should be designed together.
 
+Use our [embedded interface design](/embedded-interfaces/) guide to coordinate fieldbus planning with connectors, protection, and board integration.
+
 ## Why Interface Planning Matters
 
 Embedded products often fail at the boundary between the board and the outside world. The processor may be stable, the software may be well written, and the enclosure may look finished, but external interfaces face real-world stress.
@@ -71,6 +73,8 @@ Before designing the hardware, define:
 CAN reliability depends on physical topology. Long stubs, missing termination, mixed grounding, and poor cabling can create intermittent issues that are difficult to reproduce. If the device connects to external equipment, isolation may be needed to reduce ground-loop risk.
 
 Firmware should not simply assume the bus is healthy. It should report error counters, bus-off states, recovery attempts, and message timeout conditions. These diagnostics can save significant support time in the field.
+
+If the product needs CAN FD, follow the [CAN FD design](/posts/can-fd-interface-design-linux-sbc/) checklist for controller and transceiver compatibility, bit timing, termination, and Linux validation.
 
 ## Ethernet Planning
 

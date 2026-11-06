@@ -17,6 +17,8 @@ Display and touch integration is one of the most visible parts of an embedded pr
 
 This guide is written for teams building embedded SBC products, HMI terminals, instruments, access devices, control panels, and custom carrier boards. It focuses on engineering decisions that affect reliability and production, not just connector matching.
 
+Review display and touch alongside the power, protection, and connectivity choices in our [embedded interface design](/embedded-interfaces/) guide.
+
 ## Start With Product Requirements
 
 The display should be selected for the product, not only for the development board. Define the actual user environment and mechanical constraints before choosing an interface.
@@ -41,6 +43,8 @@ Common embedded display interfaces include MIPI DSI, LVDS, HDMI, and RGB. Each h
 MIPI DSI is common in compact embedded devices and modern panels. It supports high-resolution displays with relatively few pins, but it requires careful signal routing, panel initialization, and driver support. LVDS is common in industrial panels and can be robust for larger displays and longer internal cable runs. HDMI is convenient for standard monitors, but it may be less ideal for integrated products because connectors, licensing, hot-plug behavior, and cable handling add complexity. RGB is simple conceptually, but it uses many pins and can be sensitive to layout and timing.
 
 The best interface depends on the product. For a sealed HMI, LVDS or MIPI DSI may be better than HDMI. For a development or service display, HDMI may be convenient. For a simple low-resolution panel, RGB may still be reasonable if the SoC and layout support it cleanly.
+
+Use the [display interface comparison](/posts/mipi-dsi-lvds-edp-hdmi-display-comparison/) to compare MIPI DSI, LVDS, eDP, and HDMI against panel support, cable routing, and firmware ownership.
 
 ## Touch Is a Separate System
 

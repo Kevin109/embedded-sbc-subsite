@@ -15,6 +15,7 @@ Embedded software is no longer static code locked into devices. It has become dy
 
 With the global embedded software market projected to surpass **USD 35.6 billion by the end of 2025**, the future of embedded systems is being shaped by ten powerful trends. Here’s what engineers and product developers need to know.
 
+For practical boot, driver, update, and maintenance workflows behind these trends, use our [firmware and BSP](/embedded-firmware-bsp/) guide.
 
 ## 1. Edge AI Is Going Mainstream
 

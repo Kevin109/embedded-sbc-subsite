@@ -77,6 +77,8 @@ The biggest mistake is treating custom hardware as only a PCB task. A product-re
 
 ## Hub Articles
 
+### Core Guides
+
 - [Embedded Product Requirements Specification](/posts/embedded-product-requirements-specification/)
 - [Factory Test Fixture Design for Embedded Products](/posts/factory-test-fixture-design-embedded-products/)
 - [Custom Embedded System Cost Reduction Without Reliability Loss](/posts/custom-embedded-system-cost-reduction/)
@@ -89,6 +91,12 @@ The biggest mistake is treating custom hardware as only a PCB task. A product-re
 - [Embedded SoC](/embedded-soc/)
 - [Embedded SBC](/embedded-sbc/)
 - [Embedded Firmware and BSP](/embedded-firmware-bsp/)
+
+### Design Reviews and Production
+
+- [SBC schematic review](/posts/custom-sbc-schematic-review-checklist/)
+- [embedded manufacturing design](/posts/design-for-manufacturing-embedded-boards/)
+- [EVT DVT PVT](/posts/evt-dvt-pvt-embedded-hardware/)
 
 ## FAQ
 

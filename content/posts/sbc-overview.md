@@ -24,6 +24,7 @@ A **Single-Board Computer (SBC)** is a fully functional computer built on a sing
   </figcaption>
 </figure>
 
+For product integration, reliability, and selection criteria, continue with our [embedded SBC](/embedded-sbc/) guide.
 
 ## 🕹 What Makes SBCs Unique?
 

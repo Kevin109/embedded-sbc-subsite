@@ -17,6 +17,8 @@ A compute module carrier board is often the most practical middle path between u
 
 This approach can reduce risk, but it is not a shortcut around engineering. A carrier board still decides whether the product is reliable, manufacturable, serviceable, and easy to maintain. Many problems blamed on the module are actually carrier board problems: weak power design, poor connector placement, missing ESD protection, incorrect pin multiplexing, or incomplete factory test access.
 
+Plan carrier-board development within the requirements, validation, and manufacturing workflow for [custom embedded systems](/custom-embedded-systems/).
+
 ## Start With Product Requirements
 
 Carrier board design should begin with a product requirement document, not a connector list copied from the module datasheet. The carrier exists to adapt the compute platform to a finished device.

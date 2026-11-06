@@ -16,6 +16,8 @@ Field diagnostics determine how quickly a team can understand failures after dep
 
 Industrial devices need diagnostics because they are often installed far from developers, connected to real machines, and serviced by people who cannot attach a debugger. The product must be able to explain its own condition.
 
+Connect diagnostics with the reliability and service requirements in our [industrial embedded computing](/industrial-embedded-computing/) guide.
+
 ## Decide What the Device Should Report
 
 Start with failure modes. A useful diagnostic plan records the signals needed to distinguish likely causes. For an industrial embedded device, those signals may include:

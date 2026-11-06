@@ -17,6 +17,8 @@ NXP i.MX processors are often considered when a product needs a practical balanc
 
 For an embedded SBC, the [SoC decision](/posts/custom-embedded-soc-selection-nxp-st-qualcomm-mtk/) affects much more than CPU speed. It affects display timing, camera input, Ethernet behavior, secure boot, Linux kernel support, power states, thermal design, and the supplier path for future revisions. This guide explains how to evaluate an NXP i.MX-based SBC from a product engineering point of view.
 
+Use our [embedded SoC selection](/embedded-soc/) guide to compare the i.MX approach with the wider product requirements.
+
 ## Where i.MX Fits
 
 The i.MX family covers a wide range of embedded use cases. Some devices are optimized for low power and simple control. Others target multimedia, HMI, machine vision, edge gateways, and connected industrial equipment. For [SBC selection](/posts/sbc-selection-guide/), the important question is not "which i.MX is best?" The better question is "which i.MX class fits the product's workload and lifecycle?"

@@ -19,6 +19,7 @@ When developing an embedded product that runs Android—whether it’s a smart c
 
 In this post, we explore what the Android BSP is, where customization is needed, and best practices for making Android work reliably on your custom hardware.
 
+For the wider boot, driver, update, and maintenance workflow, use our [firmware and BSP](/embedded-firmware-bsp/) guide.
 
 ## What Is an Android BSP?
 

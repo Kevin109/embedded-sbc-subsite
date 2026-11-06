@@ -53,6 +53,8 @@ Teams should also verify documentation access and commercial support early. A pl
 
 ## Hub Articles
 
+### Core Guides
+
 - [RK3568 vs RK3576 vs RK3588 SoC comparison](/posts/rk3568-vs-rk3576-vs-rk3588-embedded-products/)
 - [NXP vs ST vs TI Embedded SoC Selection](/posts/nxp-vs-st-vs-ti-embedded-soc/)
 - [Qualcomm and MediaTek Platforms for Connected Edge Devices](/posts/qualcomm-mediatek-connected-edge-devices/)
@@ -64,6 +66,16 @@ Teams should also verify documentation access and commercial support early. A pl
 - [TI Embedded Processors for Industrial Products](/posts/ti-embedded-processors-industrial-products/)
 - [Device Tree Review Checklist for Embedded Linux Boards](/posts/device-tree-review-checklist/)
 - [Embedded BSP Bring-Up Checklist](/posts/embedded-bsp-bring-up-checklist/)
+
+### Android and Rockchip Selection
+
+- [Android SoC selection](/posts/choosing-socs-for-android-sbcs/)
+- [Rockchip SoC guide](/posts/rockchip-socs/)
+
+### Industrial Platform Comparisons
+
+- [i.MX93 vs i.MX95](/posts/nxp-imx93-vs-imx95-embedded-design/)
+- [ARM vs x86](/posts/arm-vs-x86-industrial-embedded-systems/)
 
 ## FAQ
 

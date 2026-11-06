@@ -16,6 +16,8 @@ An embedded SBC can look ready long before the product is actually ready. The bo
 
 A product validation checklist prevents this gap. It turns scattered engineering confidence into evidence. The checklist should be written before the design is frozen and then updated as the team learns more from prototypes, factory builds, and field pilots.
 
+Use our [embedded SBC engineering](/embedded-sbc/) guide to trace these validation checks back to board selection and product requirements.
+
 ## Validate the Complete Product, Not Only the Board
 
 Board-level tests are useful, but they do not represent the final system. The final product includes cables, enclosure, display, sensors, power adapter, firmware, user workload, factory image, and service process. A test that passes on an open bench may fail after the device is sealed and installed vertically in a hot cabinet.

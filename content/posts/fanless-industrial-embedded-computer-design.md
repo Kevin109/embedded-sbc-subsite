@@ -17,6 +17,8 @@ Fanless industrial embedded computers look simple from the outside: a sealed enc
 
 Fans are often avoided in industrial devices because they collect dust, create noise, reduce ingress protection, and introduce a moving part that may fail. Removing the fan can improve reliability, but only if heat has a controlled path out of the electronics. A fanless enclosure is not a magic heat sink. It must be designed as part of the thermal system.
 
+Review fanless design within the power, lifecycle, and field-maintenance requirements of [industrial embedded computing](/industrial-embedded-computing/).
+
 ## Start With the Field Environment
 
 The first step is to define where the device will run. A fanless computer installed in an air-conditioned cabinet has very different requirements from a [gateway](/posts/industrial-iot-gateway-design/) mounted near motors, outdoors, or inside a sealed metal box.

@@ -51,6 +51,8 @@ The most useful early prototype is not the one with the highest benchmark. It is
 
 ## Hub Articles
 
+### Core Guides
+
 - [Edge AI Model Deployment Workflow](/posts/edge-ai-model-deployment-workflow/)
 - [Edge AI Thermal Budget Planning](/posts/edge-ai-thermal-budget-planning/)
 - [Edge AI Data Logging and Field Feedback](/posts/edge-ai-data-logging-field-feedback/)
@@ -60,6 +62,12 @@ The most useful early prototype is not the one with the highest benchmark. It is
 - [Embedded SoC Selection Matrix for Product Teams](/posts/embedded-soc-selection-matrix/)
 - [Industrial IoT Gateway Design for Embedded Systems](/posts/industrial-iot-gateway-design/)
 - [Secure Firmware Update and Rollback for Embedded Products](/posts/secure-firmware-update-rollback/)
+
+### Benchmarking and Vision Budgets
+
+- [edge AI benchmarking](/posts/edge-ai-hardware-benchmark-real-workload/)
+- [INT8 quantization](/posts/int8-quantization-edge-ai/)
+- [multi-camera bandwidth planning](/posts/multi-camera-bandwidth-memory-edge-vision/)
 
 ## FAQ
 

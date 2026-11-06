@@ -17,6 +17,8 @@ An industrial HMI is more than a screen attached to a computer. It is a field de
 
 This guide explains industrial HMI hardware design from a product readiness perspective. It is intended for teams using embedded SBCs, compute modules, custom boards, or industrial processors from vendors such as NXP, ST, TI, Qualcomm, and MediaTek.
 
+Place HMI hardware decisions within the reliability, environment, and service requirements of [industrial embedded computing](/industrial-embedded-computing/).
+
 ## Define the HMI Environment
 
 Industrial HMI requirements depend heavily on the installation environment. A panel in a clean laboratory is different from a device mounted on a machine, inside a hot cabinet, or near motors and long cables.

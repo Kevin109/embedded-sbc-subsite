@@ -1,6 +1,6 @@
 # Embedded-SBC.com 内容盘点与 100 篇文章路线图
 
-> 最后更新：2026-10-27
+> 最后更新：2026-11-05
 >
 > 维护范围：`content/posts/` 中的文章；7 个顶层 Hub 页面单独统计。
 >
@@ -253,3 +253,8 @@ roadmap_status: "writing"
 - [U-Boot verified boot documentation](https://docs.u-boot.org/en/latest/usage/fit/verified-boot.html) 与 [measured boot documentation](https://docs.u-boot.org/en/latest/usage/measured_boot.html)：支持安全启动专题拆分。
 - [NISTIR 8259 Series](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program/nistir-8259-series)：覆盖 IoT 产品制造商的设备能力与支持流程。
 - [EU Cyber Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)：报告义务自 2026-09-11 起适用，主要义务自 2027-12-11 起适用，安全维护与漏洞响应应提前布局。
+
+
+## 站内链接维护记录
+
+- 2026-11-05：完成既有文章内链维护，新增 39 处文章到 Hub 的正文链接、25 个 Hub 文章目录入口，以及 5 处相关旧文章到新文章的正文推荐。未新增文章，沿用基线文章身份及现有 `roadmap_id` / `roadmap_status`；已发布文章仍为 74 篇，计划完成数仍为 24/100。生产构建及内链验收通过，详见 [内链审计记录](internal-link-seo-audit-2026-11-05.md)。

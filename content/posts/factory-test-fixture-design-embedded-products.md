@@ -16,6 +16,8 @@ Factory test is where an embedded product stops being a prototype and becomes a 
 
 A good fixture is not just a set of pogo pins. It is a controlled workflow that connects hardware, firmware, manufacturing, and quality data. It should be planned during the design phase of a [custom embedded system](/posts/custom-embedded-systems/), not added after the first production build is already late.
 
+Plan the fixture alongside the hardware, firmware, and manufacturing requirements for [custom embedded systems](/custom-embedded-systems/).
+
 ## Define What the Fixture Must Prove
 
 The fixture should focus on assembly and configuration defects, not every possible field failure. Its job is to confirm that the unit was built correctly, programmed correctly, identified correctly, and that key interfaces work.

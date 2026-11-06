@@ -20,6 +20,7 @@ In Single Board Computers (SBCs), serial ports are commonly used for system debu
 
 This article explains the role of serial ports in SBC systems, how serial communication works, the most common serial standards, and how these interfaces are used in real-world embedded applications.
 
+Use our [embedded interface design](/embedded-interfaces/) guide to place UART communication alongside fieldbus, connector, and protection planning.
 
 ## What Is a Serial Port?
 

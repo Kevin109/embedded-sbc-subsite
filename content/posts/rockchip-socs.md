@@ -20,6 +20,8 @@ Rockchip platforms are especially popular in products that require a screen-base
     src="/images/rockchip-logo.png" 
     alt="rockchip-logo" >
 
+Place Rockchip platform choices within the workload, interfaces, software, and lifecycle framework in our [embedded SoC selection](/embedded-soc/) guide.
+
 ## Why Rockchip SoCs Are Popular
 
 The main reason Rockchip SoCs are popular is that they cover many product levels. There are entry-level processors for simple smart panels, mid-range SoCs for industrial SBCs, and high-performance chips for AI edge computing and multi-display systems.

@@ -82,6 +82,8 @@ Maintenance planning should answer:
 
 ## Hub Articles
 
+### Core Guides
+
 - [Industrial Embedded Enclosure Design](/posts/industrial-embedded-enclosure-design/)
 - [EMC and ESD Design Checklist for Embedded Systems](/posts/emc-esd-design-checklist-embedded-systems/)
 - [Field Diagnostics for Embedded Industrial Devices](/posts/field-diagnostics-embedded-industrial-devices/)
@@ -96,6 +98,10 @@ Maintenance planning should answer:
 - [Embedded SBC](/embedded-sbc/)
 - [Embedded Interfaces](/embedded-interfaces/)
 - [Custom Embedded Systems](/custom-embedded-systems/)
+
+### Environmental Validation
+
+- [wide-temperature SBC validation](/posts/wide-temperature-validation-industrial-sbc/)
 
 ## FAQ
 

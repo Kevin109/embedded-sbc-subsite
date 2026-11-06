@@ -17,6 +17,8 @@ TI embedded processors are often considered for products where industrial behavi
 
 This guide explains how to evaluate TI processors for industrial embedded products. It focuses on product fit, software support, lifecycle, and validation rather than listing every device family. The same [selection discipline](/posts/embedded-soc-selection-matrix/) also helps when comparing TI against NXP, ST, Qualcomm, MediaTek, or other embedded platforms.
 
+Our [embedded SoC selection](/embedded-soc/) guide provides the wider workload, interface, and lifecycle framework for evaluating TI platforms.
+
 ## Where TI Often Fits
 
 TI processors are commonly evaluated for industrial controllers, gateways, motor-control systems, data acquisition devices, [HMI panels](/posts/industrial-hmi-hardware-design/), energy systems, building automation, and equipment that needs a mix of Linux-class computing and real-time behavior. Some product teams consider TI because of industrial communication options, long product cycles, and documentation depth.

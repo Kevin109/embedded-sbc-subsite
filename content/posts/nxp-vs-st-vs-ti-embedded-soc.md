@@ -16,6 +16,8 @@ NXP, ST, and TI all serve serious embedded product markets, but they are not int
 
 This comparison is written for teams selecting a processor for industrial devices, HMI terminals, gateways, instruments, and long-life embedded products. It avoids benchmark-only thinking and focuses on what usually matters after the first prototype: Linux support, peripheral fit, thermal behavior, field updates, supplier continuity, and engineering effort.
 
+Build the vendor comparison around the workload, interfaces, and lifecycle checks in our [embedded SoC selection](/embedded-soc/) guide.
+
 ## Where Each Vendor Often Fits
 
 NXP i.MX platforms are widely used in Linux-based embedded devices that need display, camera, multimedia, and balanced industrial support. They are common in HMIs, gateways, access devices, and connected products where the team values broad module availability and mature BSP options.

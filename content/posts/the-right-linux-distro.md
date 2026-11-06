@@ -13,6 +13,7 @@ images:
 
 If your organization deploys IoT solutions, you already know that embedded system development differs significantly from standard desktop development. The low cost and open-source nature of Linux make it a popular choice for [embedded projects](/posts/sbc-overview/), especially when paired with modern SBC hardware platforms. While some developers initially use virtual machines to emulate target environments, dedicated embedded Linux distributions provide a far more efficient and tailored development workflow.
 
+Connect distribution selection with boot, driver, build, and update planning in our [firmware and BSP](/embedded-firmware-bsp/) guide.
 
 ## Why Use Linux for Embedded Systems?
 

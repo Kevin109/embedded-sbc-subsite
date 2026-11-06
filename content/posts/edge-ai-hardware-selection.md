@@ -17,6 +17,8 @@ Edge AI hardware selection is often reduced to a single number: TOPS. That numbe
 
 For embedded products, edge AI hardware should be selected from the workload outward. The product team needs to know what model will run, what data will enter the system, how fast the result must be produced, how much power is available, how the enclosure handles heat, and how the device will be maintained after deployment.
 
+Our [edge AI computing](/edge-ai-computing/) guide connects hardware selection with camera pipelines, thermal planning, and model deployment.
+
 ## Start With the AI Workload
 
 Before comparing SoCs, modules, or accelerator cards, define the workload in practical terms. "AI camera" or "[smart gateway](/posts/edge-ai-gateway-design-industrial-systems/)" is too vague. A product may need object detection on one camera at 15 fps, OCR on still images, anomaly detection on vibration data, face recognition with strict privacy rules, or event filtering across multiple sensors.

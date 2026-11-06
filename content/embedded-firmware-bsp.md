@@ -80,6 +80,8 @@ Factory test planning should cover:
 
 ## Hub Articles
 
+### Core Guides
+
 - [Yocto vs Buildroot for production embedded Linux](/posts/yocto-vs-buildroot-production-embedded-linux/)
 - [Factory Flashing Workflow for Embedded Linux Products](/posts/factory-flashing-workflow-embedded-linux/)
 - [Secure Boot Key Management for Embedded Products](/posts/secure-boot-key-management-embedded-products/)
@@ -93,6 +95,23 @@ Factory test planning should cover:
 - [Embedded SoC](/embedded-soc/)
 - [Embedded Interfaces](/embedded-interfaces/)
 - [Custom Embedded Systems](/custom-embedded-systems/)
+
+### Build Architecture and Startup
+
+- [Android BSP customization](/posts/custom-android-bsp-development/)
+- [Yocto layer architecture](/posts/yocto-layer-architecture-product-bsp/)
+- [Linux boot optimization](/posts/embedded-linux-boot-time-optimization/)
+
+### Updates and Device Management
+
+- [A/B partition layout](/posts/ab-partition-layout-embedded-linux-ota/)
+- [Android A/B OTA](/posts/android-ab-ota-updates-embedded-sbc/)
+- [Android kiosk management](/posts/android-kiosk-device-owner/)
+
+### Security Maintenance and Provisioning
+
+- [SBOM and CVE response](/posts/sbom-cve-response-embedded-linux/)
+- [device identity provisioning](/posts/secure-device-identity-factory-provisioning/)
 
 ## FAQ
 

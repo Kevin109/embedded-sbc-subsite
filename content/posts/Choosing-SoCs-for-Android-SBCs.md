@@ -19,6 +19,8 @@ For Android SBC products, Rockchip and NXP are two common SoC families. Rockchip
 
 This article explains how SoCs are used in [Android SBCs](https://android-sbc.com/), why Rockchip and NXP are widely selected, and what engineers should consider when choosing a platform for real product development.
 
+Use our [embedded SoC selection](/embedded-soc/) guide to place Android platform choices within the wider product architecture.
+
 ## What Is an SoC in an Android SBC?
 
 An SoC, or system-on-chip, integrates many computing and interface functions into one chip. Instead of using separate chips for CPU, GPU, display controller, video decoder, camera interface, USB, Ethernet, audio, and security functions, an SoC combines many of these blocks into one silicon platform.

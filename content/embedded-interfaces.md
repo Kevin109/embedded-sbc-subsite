@@ -62,6 +62,8 @@ Every production design should define:
 
 ## Hub Articles
 
+### Core Guides
+
 - [USB and PCIe Expansion Planning for Embedded SBCs](/posts/usb-pcie-expansion-planning-embedded-sbc/)
 - [MIPI CSI vs USB Camera for Embedded Vision](/posts/mipi-csi-vs-usb-camera-embedded-vision/)
 - [GPIO, Relay, and Isolated Input Design](/posts/gpio-relay-isolated-input-design/)
@@ -74,6 +76,16 @@ Every production design should define:
 - [Embedded SBC](/embedded-sbc/)
 - [Industrial Embedded Computing](/industrial-embedded-computing/)
 - [Custom Embedded Systems](/custom-embedded-systems/)
+
+### Fieldbus and Ethernet Design
+
+- [CAN FD design](/posts/can-fd-interface-design-linux-sbc/)
+- [Modbus gateway design](/posts/modbus-rtu-tcp-industrial-gateway/)
+- [Ethernet PHY design](/posts/ethernet-phy-magnetics-connector-design/)
+
+### Display Interface Selection
+
+- [display interface comparison](/posts/mipi-dsi-lvds-edp-hdmi-display-comparison/)
 
 ## FAQ
 

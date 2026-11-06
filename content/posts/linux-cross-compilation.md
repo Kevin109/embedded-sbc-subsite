@@ -13,6 +13,8 @@ images:
 
 Cross-compilation is an essential skill for developers working on embedded systems. Unlike standard Linux development, where code is compiled and run on the same architecture, embedded systems often use different CPU architectures (e.g., ARM, RISC-V) than your development machine (typically x86\_64). This guide provides a thorough overview of how cross-compilation works, why it matters, and how to set up your own environment for building Linux for embedded systems such as [ARM-based single-board computers](/posts/sbc-overview/) and other compact hardware platforms.
 
+Place the cross-compilation toolchain within the reproducible build and release workflow in our [firmware and BSP](/embedded-firmware-bsp/) guide.
+
 ## What is Cross-Compilation?
 
 Cross-compilation is the process of building executable code for a target system that is different from the host system. For embedded systems, this usually means compiling code on an x86\_64 PC that will run on an ARM or RISC-V device. This method is used because embedded systems often lack the resources to compile large projects locally.

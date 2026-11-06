@@ -17,6 +17,8 @@ An edge AI gateway combines industrial connectivity with local inference. It may
 
 The engineering challenge is not only running a model. A production gateway needs stable [field interfaces](/posts/rs485-can-ethernet-interface-planning/), storage that survives power loss, secure provisioning, update rollback, thermal control, diagnostics, and a support path for model changes. This guide explains how to design an edge AI gateway as an embedded product.
 
+For the wider workload, accelerator, and deployment decisions behind the gateway, use our [edge AI computing](/edge-ai-computing/) guide.
+
 ## Define the Gateway's AI Role
 
 Start by deciding what the gateway is responsible for. Some gateways perform lightweight anomaly detection on sensor data. Others process camera streams, run object detection, classify events, or combine local inference with cloud analytics.

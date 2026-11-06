@@ -16,6 +16,8 @@ Edge AI products improve only when teams can understand what happened in the fie
 
 Data logging for edge AI must be deliberate. Logging everything creates privacy, storage, bandwidth, and compliance problems. Logging too little makes model improvement impossible. The right design captures useful evidence with clear controls.
 
+Plan field feedback alongside inference, model updates, and hardware validation in our [edge AI computing](/edge-ai-computing/) guide.
+
 ## Decide What Evidence the Product Needs
 
 Start with the decisions the team must diagnose. Does the product need to explain false positives, missed detections, latency spikes, camera failures, model drift, or environmental patterns? Each question needs different evidence.

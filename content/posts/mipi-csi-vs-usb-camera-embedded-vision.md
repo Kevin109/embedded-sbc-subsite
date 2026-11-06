@@ -16,6 +16,8 @@ Camera interface choice has a large impact on embedded vision products. MIPI CSI
 
 For edge AI products, camera choice should be made together with the model pipeline. A poor camera decision can reduce accuracy even when the AI accelerator is fast.
 
+Our [embedded interface design](/embedded-interfaces/) guide places camera connectivity alongside protection, expansion, and product integration requirements.
+
 ## MIPI CSI Strengths and Risks
 
 MIPI CSI is often preferred for integrated camera products where the camera is fixed inside the enclosure. It can provide low latency, direct ISP integration, compact cables, and fine control over sensor settings. It is common in smart cameras, access terminals, inspection devices, and compact HMI products with vision features.

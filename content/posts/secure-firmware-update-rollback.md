@@ -17,6 +17,8 @@ Secure firmware update is a product requirement, not an optional feature added a
 
 This guide explains how to design firmware update and rollback for [embedded Linux products](/posts/industrial-linux/), SBC-based devices, custom carrier boards, gateways, HMI terminals, and industrial computers. The exact implementation may use A/B partitions, a recovery image, a package manager, or a vendor tool, but the engineering principles are similar.
 
+Coordinate update design with boot, driver, production, and maintenance planning through our [firmware and BSP](/embedded-firmware-bsp/) guide.
+
 ## Define the Update Risk
 
 Different products need different update strategies. A device on a service bench can be recovered manually. A gateway installed in a remote cabinet cannot. A medical or industrial device may need strict release control. A consumer-facing terminal may need silent updates with minimal downtime.

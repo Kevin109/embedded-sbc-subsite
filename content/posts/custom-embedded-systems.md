@@ -14,6 +14,7 @@ images:
 Looking to **build a custom embedded system** that fits your product—not the other way around?  
 Rocktech delivers **ARM-based SBC design**, **Linux/Android BSP customization**, and **mass-production readiness** for industrial, medical and commercial devices.
 
+For requirements planning, architecture options, and engineering checks, use our [custom embedded systems](/custom-embedded-systems/) guide.
 
 ## What Is a Custom Embedded System?
 

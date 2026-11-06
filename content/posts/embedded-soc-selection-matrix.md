@@ -17,6 +17,8 @@ An embedded SoC selection matrix is useful because SoC decisions are too importa
 
 This guide explains how product teams can compare embedded SoCs in a structured way. It is written for teams evaluating NXP i.MX, ST STM32MP, Qualcomm, MediaTek, [TI](/posts/ti-embedded-processors-industrial-products/), or similar embedded processor platforms for custom boards, compute-module carriers, industrial gateways, HMI terminals, instruments, and connected devices.
 
+Our [embedded SoC selection](/embedded-soc/) guide provides the architecture and product context for building this comparison matrix.
+
 ## Start With the Product Job
 
 The first column in a SoC matrix should not be CPU speed. It should be the product job. A control terminal, an industrial gateway, a camera device, and a smart display may all need Linux, but their SoC requirements are very different.

@@ -17,6 +17,8 @@ Device tree is one of the most important files in an [embedded Linux BSP](/posts
 
 This checklist is written for engineers reviewing device tree files for SBCs, SOM carrier boards, and custom embedded boards. It applies to many SoC platforms, including NXP i.MX, ST STM32MP, TI, Qualcomm, MediaTek, and other Linux-capable processors.
 
+Place device-tree review within the boot, driver, and release workflow in our [firmware and BSP](/embedded-firmware-bsp/) guide.
+
 ## Start With the Exact Board Revision
 
 Device tree must match hardware. Before reviewing nodes and properties, confirm the board revision, module revision, BOM options, and product variant. If a carrier board has multiple configurations, the BSP should make that explicit.
