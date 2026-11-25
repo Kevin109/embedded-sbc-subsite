@@ -1,10 +1,10 @@
 # Embedded-SBC.com 内容盘点与 100 篇文章路线图
 
-> 最后更新：2026-11-05
+> 最后更新：2026-11-24
 >
 > 维护范围：`content/posts/` 中的文章；7 个顶层 Hub 页面单独统计。
 >
-> 当前状态：74 篇已发布文章、7 个 Hub 页面、100 篇计划文章（24/100 已完成）。
+> 当前状态：82 篇已发布文章、7 个 Hub 页面、100 篇计划文章（32/100 已完成）。
 
 ## 状态标记规则
 
@@ -128,19 +128,19 @@ roadmap_status: "writing"
 | ESB-P022 | ✅ | Firmware & BSP | [Yocto Layer Architecture for a Maintainable Product BSP](../content/posts/yocto-layer-architecture-product-bsp.md) | 分离上游、SoC、板级、产品和客户层 |
 | ESB-P023 | ✅ | Edge AI | [Multi-Camera Bandwidth and Memory Planning for Edge Vision](../content/posts/multi-camera-bandwidth-memory-edge-vision.md) | 计算 CSI、ISP、DDR、编码与推理数据流 |
 | ESB-P024 | ✅ | Industrial Computing | [Wide-Temperature Validation for Industrial SBC Products](../content/posts/wide-temperature-validation-industrial-sbc.md) | 设计冷热启动、满载、存储和接口测试 |
-| ESB-P025 | ⬜ | Firmware & BSP | AOSP, CTS, VTS, and GMS: What Embedded Android Teams Need | 澄清认证边界、成本、测试和发布影响 |
+| ESB-P025 | ✅ | Firmware & BSP | [AOSP, CTS, VTS, and GMS: What Embedded Android Teams Need](../content/posts/android-aosp-cts-vts-gms.md) | 澄清认证边界、成本、测试和发布影响 |
 
 ### Wave 2：工程实施（ESB-P026–ESB-P050）
 
 | ID | 状态 | Hub | 建议文章标题 | 核心任务 |
 |---|---|---|---|---|
-| ESB-P026 | ⬜ | Embedded SBC | How Much RAM Does an Embedded SBC Really Need? | 按 UI、容器、AI、缓存和峰值留量估算 |
-| ESB-P027 | ⬜ | Embedded SoC | STM32MP1 vs STM32MP2 for Industrial Linux Products | 比较算力、实时域、图形、生态与迁移代价 |
-| ESB-P028 | ⬜ | Firmware & BSP | Android Boot Flow and Partition Layout on Custom SBCs | 串起 Boot ROM、bootloader、AVB、动态分区与启动 |
-| ESB-P029 | ⬜ | Firmware & BSP | Device Tree Overlays for Product Variants | 管理显示、扩展板和客户配置而不复制整套 DTS |
-| ESB-P030 | ⬜ | Custom Systems | PMIC Selection and Power Sequencing for Embedded SoCs | 处理电源轨、时序、复位、睡眠和故障 |
-| ESB-P031 | ⬜ | Industrial Computing | OPC UA Edge Gateway Architecture | 覆盖信息模型、安全、缓存与云端连接边界 |
-| ESB-P032 | ⬜ | Industrial Computing | MQTT Store-and-Forward for Unreliable Industrial Networks | 设计本地队列、QoS、去重、时钟和恢复 |
+| ESB-P026 | ✅ | Embedded SBC | [How Much RAM Does an Embedded SBC Really Need?](../content/posts/embedded-sbc-ram-sizing.md) | 按 UI、容器、AI、缓存和峰值留量估算 |
+| ESB-P027 | ✅ | Embedded SoC | [STM32MP1 vs STM32MP2 for Industrial Linux Products](../content/posts/stm32mp1-vs-stm32mp2-industrial-linux.md) | 比较算力、实时域、图形、生态与迁移代价 |
+| ESB-P028 | ✅ | Firmware & BSP | [Android Boot Flow and Partition Layout on Custom SBCs](../content/posts/android-boot-flow-partition-layout.md) | 串起 Boot ROM、bootloader、AVB、动态分区与启动 |
+| ESB-P029 | ✅ | Firmware & BSP | [Device Tree Overlays for Product Variants](../content/posts/device-tree-overlays-product-variants.md) | 管理显示、扩展板和客户配置而不复制整套 DTS |
+| ESB-P030 | ✅ | Custom Systems | [PMIC Selection and Power Sequencing for Embedded SoCs](../content/posts/pmic-selection-power-sequencing-embedded-soc.md) | 处理电源轨、时序、复位、睡眠和故障 |
+| ESB-P031 | ✅ | Industrial Computing | [OPC UA Edge Gateway Architecture](../content/posts/opc-ua-edge-gateway-architecture.md) | 覆盖信息模型、安全、缓存与云端连接边界 |
+| ESB-P032 | ✅ | Industrial Computing | [MQTT Store-and-Forward for Unreliable Industrial Networks](../content/posts/mqtt-store-forward-industrial-networks.md) | 设计本地队列、QoS、去重、时钟和恢复 |
 | ESB-P033 | ⬜ | Edge AI | NPU Operator Compatibility: Why Models Fail to Compile | 从算子、形状、量化到 CPU 回退定位问题 |
 | ESB-P034 | ⬜ | Embedded Interfaces | PCIe Signal Integrity and Bring-Up for Custom Carrier Boards | 覆盖拓扑、参考时钟、复位、走线和训练失败 |
 | ESB-P035 | ⬜ | Embedded Interfaces | USB 3.0 Signal Integrity for Embedded Boards | 聚焦阻抗、连接器、ESD、损耗与眼图验证 |

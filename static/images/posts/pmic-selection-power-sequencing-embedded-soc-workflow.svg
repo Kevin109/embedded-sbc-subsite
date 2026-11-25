@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500" role="img">
+  <title>Power rail sequencing and reset</title>
+  <desc>Conceptual traces with independent axes. Refer to the SoC and PMIC for actual thresholds.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6 Z" fill="#267789"/></marker></defs>
+  <rect width="1120" height="500" rx="20" fill="#f6f9fb"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="54" font-size="35" fill="#123750" font-weight="700" text-anchor="start">Power rail sequencing and reset</text>
+    <text x="40" y="88" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Conceptual traces with independent axes. Refer to the SoC and PMIC for actual thresholds.</text>
+    <text x="40" y="169" font-size="23" fill="#123750" font-weight="700" text-anchor="start">Input valid</text><path d="M250 176 H300 l14 -25 H1078" fill="none" stroke="#27798b" stroke-width="5" stroke-linejoin="round"/><text x="40" y="222" font-size="23" fill="#123750" font-weight="700" text-anchor="start">Rail A</text><path d="M250 229 H422 l14 -25 H1078" fill="none" stroke="#27798b" stroke-width="5" stroke-linejoin="round"/><text x="40" y="275" font-size="23" fill="#123750" font-weight="700" text-anchor="start">Rail B</text><path d="M250 282 H555 l14 -25 H1078" fill="none" stroke="#27798b" stroke-width="5" stroke-linejoin="round"/><text x="40" y="328" font-size="23" fill="#123750" font-weight="700" text-anchor="start">Power good</text><path d="M250 335 H688 l14 -25 H1078" fill="none" stroke="#466796" stroke-width="5" stroke-linejoin="round"/><text x="40" y="381" font-size="23" fill="#123750" font-weight="700" text-anchor="start">Reset released</text><path d="M250 388 H820 l14 -25 H1078" fill="none" stroke="#466796" stroke-width="5" stroke-linejoin="round"/><path d="M250 416 H1078" stroke="#267789" stroke-width="3" marker-end="url(#arrow)"/><text x="1053" y="402" font-size="18" fill="#355368" font-weight="400" text-anchor="end">time</text>
+    <path d="M40 439 H1080" stroke="#ccd8e2"/>
+    <text x="40" y="471" font-size="19" fill="#4a6273" font-weight="400" text-anchor="start">Capture input, critical rails, power-good, and reset on a common time base.</text>
+  </g>
+</svg>
