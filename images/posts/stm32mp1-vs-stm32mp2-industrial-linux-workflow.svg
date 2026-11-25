@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500" role="img">
+  <title>STM32 MPU selection gates</title>
+  <desc>Apply the same product workload and acceptance limits to each shortlisted part.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6 Z" fill="#267789"/></marker></defs>
+  <rect width="1120" height="500" rx="20" fill="#f6f9fb"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="54" font-size="35" fill="#123750" font-weight="700" text-anchor="start">STM32 MPU selection gates</text>
+    <text x="40" y="88" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Apply the same product workload and acceptance limits to each shortlisted part.</text>
+    <rect x="40" y="144" width="324" height="130" rx="14" fill="#e5f0f7" stroke="#adc6d6" stroke-width="2"/><text x="60" y="179" font-size="26" fill="#103b53" font-weight="700" text-anchor="start">Required I/O</text><text x="60" y="213" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Exact ordering code and pins</text><text x="60" y="240" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Panel, fieldbus and storage</text><path d="M364 209 L398 209" stroke="#267789" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <rect x="398" y="144" width="324" height="130" rx="14" fill="#e5f0f7" stroke="#adc6d6" stroke-width="2"/><text x="418" y="179" font-size="26" fill="#103b53" font-weight="700" text-anchor="start">BSP and real time</text><text x="418" y="213" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Linux ABI and toolchain</text><text x="418" y="240" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Companion-core recovery</text><path d="M722 209 L756 209" stroke="#267789" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <rect x="756" y="144" width="324" height="130" rx="14" fill="#e5f0f7" stroke="#adc6d6" stroke-width="2"/><text x="776" y="179" font-size="26" fill="#103b53" font-weight="700" text-anchor="start">Paired prototypes</text><text x="776" y="213" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Latency, power and recovery</text><text x="776" y="240" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Same workload and conditions</text><rect x="40" y="304" width="1040" height="106" rx="14" fill="#e6f3ee" stroke="#adc6d6" stroke-width="2"/><text x="60" y="339" font-size="26" fill="#103b53" font-weight="700" text-anchor="start">Use migration cost to break a tie</text><text x="60" y="373" font-size="21" fill="#233d51" font-weight="400" text-anchor="start">Compare board redesign, software porting, qualification work, and recurring BOM costs.</text>
+    <path d="M40 439 H1080" stroke="#ccd8e2"/>
+    <text x="40" y="471" font-size="19" fill="#4a6273" font-weight="400" text-anchor="start">Verify processor capabilities in the datasheet and end-to-end behavior on the selected board.</text>
+  </g>
+</svg>
